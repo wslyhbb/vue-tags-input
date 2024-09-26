@@ -26,7 +26,6 @@ export default {
     'blur',
     'focus'
   ],
-  inheritAttrs: false,
   data() {
     return {
       tagCenter: [],
