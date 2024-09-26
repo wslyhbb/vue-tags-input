@@ -8,10 +8,12 @@
       </p>
 
       <el-code class="javascript">
-        <code>import Vue from 'vue';
-import VueTagsInput from '@johmun/vue-tags-input';
+        <code>import { createApp } from 'vue';
+          import VueTagsInput from '@wslyhbb/vue3-tags-input';
 
-Vue.use(VueTagsInput);
+          const app = createApp(App);
+
+          app.use(VueTagsInput);
         </code>
       </el-code>
 
@@ -22,10 +24,10 @@ Vue.use(VueTagsInput);
 
       <el-code class="javascript">
         <code>plugins: [{ src: '~/plugins/vue-tags-input', ssr: false }],
-build: {
-vendor: ['@johmun/vue-tags-input'],
-// more config
-}
+          build: {
+          vendor: ['@wslyhbb/vue3-tags-input'],
+          // more config
+          }
         </code>
       </el-code>
 

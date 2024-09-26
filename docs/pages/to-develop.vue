@@ -17,13 +17,13 @@
       :autocomplete-items="autocompleteItems"
       @tags-changed="tagsChanged"
     />
-    <input type="text" />
+    <input type="text">
     {{ tags }}
   </div>
 </template>
 
 <script>
-import VueTagsInput from '@johmun/vue-tags-input';
+import VueTagsInput from '@wslyhbb/vue3-tags-input';
 import TagInput from '@tag-input';
 
 export default {

@@ -1,6 +1,6 @@
 'use strict';
 const path = require('path');
-const CleanPlugin = require('clean-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const { VueLoaderPlugin } = require('vue-loader');
 
 const resolve = src => path.resolve(__dirname, src);
@@ -23,6 +23,11 @@ module.exports = {
       {
         test: /\.vue$/,
         loader: 'vue-loader',
+      },
+      {
+        test: /\.mjs$/,
+        include: /node_modules/,
+        type: "javascript/auto"
       },
       {
         test: /\.js$/,
@@ -49,9 +54,11 @@ module.exports = {
           {
             loader: 'postcss-loader',
             options: {
-              plugins: () => [
-                require('autoprefixer')(),
-              ],
+              postcssOptions: {
+                plugins: () => [
+                  require('autoprefixer')(),
+                ]
+              },
               sourceMap: true,
             },
           },
@@ -69,7 +76,7 @@ module.exports = {
   },
   plugins: [
     new VueLoaderPlugin(),
-    new CleanPlugin(['../dist'], { allowExternal: true }),
+    new CleanWebpackPlugin(),
   ],
   resolve: {
     extensions: ['.js', '.vue'],

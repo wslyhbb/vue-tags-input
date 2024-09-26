@@ -2,7 +2,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CleanPlugin = require('clean-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const { VueLoaderPlugin } = require('vue-loader');
 const ip = require('ip');
@@ -30,6 +30,11 @@ module.exports = {
         loader: 'vue-loader',
       },
       {
+        test: /\.mjs$/,
+        include: /node_modules/,
+        type: "javascript/auto"
+      },
+      {
         test: /\.js$/,
         exclude: /(node_modules|\.demo\.)/,
         use: {
@@ -55,9 +60,11 @@ module.exports = {
           {
             loader: 'postcss-loader',
             options: {
-              plugins: () => [
-                require('autoprefixer')(),
-              ],
+              postcssOptions: {
+                plugins: () => [
+                  require('autoprefixer')(),
+                ]
+              },
               sourceMap: true,
             },
           },
@@ -95,7 +102,7 @@ module.exports = {
   plugins: [
     new VueLoaderPlugin(),
     new CopyWebpackPlugin([{ from: resolve('../docs/.htaccess') }]),
-    new CleanPlugin(['../docs-dist'], { allowExternal: true }),
+    new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: resolve('../docs/index.html'),
     }),
@@ -103,13 +110,16 @@ module.exports = {
       'process.env': {
         NODE_ENV: JSON.stringify(mode),
       },
+      __VUE_OPTIONS_API__: 'true',
+      __VUE_PROD_DEVTOOLS__: 'false',
+      __VUE_PROD_HYDRATION_MISMATCH_DETAILS__: 'false',
     }),
   ],
   resolve: {
     extensions: ['.js', '.vue'],
     alias: {
       '@components': resolve('../docs/components'),
-      '@johmun/vue-tags-input': resolve('../vue-tags-input/vue-tags-input.vue'),
+      '@wslyhbb/vue3-tags-input': resolve('../vue-tags-input/vue-tags-input.vue'),
       '@tag-input': resolve('../vue-tags-input/tag-input.vue'),
       'colors': resolve('../docs/colors.scss'),
       'vue': '@vue/runtime-dom',

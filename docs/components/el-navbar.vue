@@ -60,6 +60,7 @@
 <script>
 export default {
   name: 'ElNavbar',
+  emits: ['close-nav'],
   data() {
     return {
       linkStatus: [],

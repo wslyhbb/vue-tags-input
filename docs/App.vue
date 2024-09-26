@@ -19,11 +19,11 @@
             </a>
           </div>
         </header>
-          <router-view class="main-content" v-slot="{ Component }">
-            <transition name="fade" mode="out-in">
-              <component :is="Component" />
-            </transition>
-          </router-view>
+        <router-view v-slot="{ Component }" class="main-content">
+          <transition name="fade" mode="out-in">
+            <component :is="Component" />
+          </transition>
+        </router-view>
       </div>
     </main>
   </div>
