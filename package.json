@@ -1,6 +1,6 @@
 {
   "name": "@wslyhbb/vue3-tags-input",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "author": "Johannes Munari <johannesm@hotmail.de>",
   "contributors": [
     {
@@ -27,15 +27,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/wslyhbb/vue-tags-input.git"
+    "url": "git+https://github.com/wslyhbb/vue-tags-input.git"
   },
   "main": "dist/vue-tags-input.js",
   "scripts": {
     "dev": "npm run docs",
     "docs": "cross-env NODE_ENV=development webpack serve --hot --config ./build/docs.config.js",
-    "build-docs": "cross-env NODE_ENV=production webpack --config ./build/docs.config.js --hide-modules",
+    "build-docs": "cross-env NODE_ENV=production webpack --config ./build/docs.config.js",
     "analyze": "cross-env ANALYZE=true npm run build-docs",
-    "build-lib": "webpack --config ./build/lib.config.js --hide-modules",
+    "build-lib": "webpack --config ./build/lib.config.js",
     "precommit": "lint-staged",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore . --ignore-pattern *.demo.*",
     "lint-fix": "eslint --fix --ignore-path .gitignore --ext .js,.vue . --ignore-pattern *.demo.*",
