@@ -22,7 +22,9 @@ export default {
     'tags-changed',
     'tag-clicked',
     'update:modelValue',
-    'update:tags'
+    'update:tags',
+    'blur',
+    'focus'
   ],
   inheritAttrs: false,
   data() {
@@ -107,7 +109,7 @@ export default {
     // Method to call if a tag should switch to it's edit mode
     performEditTag(index) {
       if (!this.allowEditTags) return;
-      if (!this.onBeforeAddingTag) this.editTag(index);
+      if (!this.onBeforeEditingTag) this.editTag(index);
       /**
        * @description Emits before a tag toggles to it's edit mode
        * @name before-editing-tag
@@ -287,7 +289,7 @@ export default {
         if (this.hasForbiddingAddRule(tag.tiClasses)) return;
 
         // Everything is okay → add the tag
-        this.newTag = ''
+        this.$emit('update:modelValue', '');
         this.tagsCopy.push(tag);
 
         // Special update for the parent if v-model:tags is on
@@ -310,7 +312,7 @@ export default {
       if (tag.text.trim().length === 0) return;
 
       // The basic checks are done → try to save the tag
-      if (!this['on-before-saving-tag']) this.saveTag(index, tag);
+      if (!this.onBeforeSavingTag) this.saveTag(index, tag);
       /**
        * @description Emits before a tag is saved
        * @name before-saving-tag
