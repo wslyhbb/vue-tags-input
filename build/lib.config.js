@@ -22,7 +22,7 @@ module.exports = {
     rules: [
       {
         test: /\.vue$/,
-        loader: 'vue-loader',
+        use: 'vue-loader',
       },
       {
         test: /\.mjs$/,
@@ -67,10 +67,7 @@ module.exports = {
       },
       {
         test: /\.(ttf|eot|woff|woff2|otf)$/,
-        loader: 'url-loader',
-        options: {
-          limit: 100000,
-        },
+        type: 'asset'
       },
     ],
   },
@@ -84,7 +81,7 @@ module.exports = {
       'vue': '@vue/runtime-dom',
     },
   },
-  devtool: '#source-map',
+  devtool: 'source-map',
   optimization: {
     minimize: true,
   },

@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const { VueLoaderPlugin } = require('vue-loader');
-const ip = require('ip');
+const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 const mode = process.env.NODE_ENV === 'development' ? 'development' : 'production';
 
@@ -17,17 +17,17 @@ module.exports = {
   entry: ['@babel/polyfill', resolve('../docs/main.js')],
   output: {
     path: resolve('../docs-dist'),
-    filename: '[name].[hash].js',
+    filename: '[name].[contenthash].js',
   },
   module: {
     rules: [
       {
         test: /\.demo\./,
-        use: 'raw-loader',
+        type: 'asset/source',
       },
       {
         test: /\.vue$/,
-        loader: 'vue-loader',
+        use: 'vue-loader',
       },
       {
         test: /\.mjs$/,
@@ -73,35 +73,22 @@ module.exports = {
       },
       {
         test: /\.(woff|woff2|eot|ttf|mp3|mp4|webm)$/,
-        loader: 'file-loader?name=[path][name]-[hash].[ext]',
+        type: 'asset/resource',
+        generator: {
+          filename: '[path][name]-[hash].[ext]'
+        },
       },
       {
         test: /\.(gif|png|jpe?g|svg|webp)$/i,
-        use: [
-          'file-loader',
-          {
-            loader: 'image-webpack-loader',
-            options: mode === 'production' ? {
-              mozjpeg: {
-                progressive: true,
-                quality: 75,
-              },
-              optipng: {
-                enabled: false,
-              },
-              pngquant: {
-                quality: '75-90',
-                speed: 4,
-              },
-            } : { disable: true },
-          },
-        ],
+        type: 'asset/resource'
       },
     ],
   },
   plugins: [
     new VueLoaderPlugin(),
-    new CopyWebpackPlugin([{ from: resolve('../docs/.htaccess') }]),
+    new CopyWebpackPlugin({
+      patterns: [{ from: resolve('../docs/.htaccess') }]
+    }),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: resolve('../docs/index.html'),
@@ -129,20 +116,35 @@ module.exports = {
     historyApiFallback: true,
     port,
     host: '0.0.0.0',
-    setupMiddlewares(middlewares) {
-      middlewares.push(() => {
-        console.log('\nServing on: ', 'localhost:' + port);
-        console.log('IP: ', `${ip.address()}:${port}`);
-      })
-
-      return middlewares
-    },
   },
   performance: {
     hints: false,
   },
-  devtool: '#eval-source-map',
+  devtool: 'eval-source-map',
   optimization: {
+    minimizer: [
+      '...',
+      new ImageMinimizerPlugin({
+        minimizer: {
+          implementation: ImageMinimizerPlugin.imageminMinify,
+          options: mode === 'production' ? {
+            plugins: [
+              ['mozjpeg', {
+                progressive: true,
+                quality: 75,
+              }],
+              ['optipng', {
+                enabled: false,
+              }],
+              ['pngquant', {
+                quality: '75-90',
+                speed: 4,
+              }]
+            ],
+          } : { disable: true }
+        }
+      })
+    ],
     splitChunks: {
       cacheGroups: {
         commons: {
@@ -156,7 +158,7 @@ module.exports = {
 };
 
 if (mode === 'production') {
-  module.exports.devtool = '#source-map';
+  module.exports.devtool = 'source-map';
   module.exports.plugins = (module.exports.plugins || []).concat([
     new webpack.LoaderOptionsPlugin({ minimize: true }),
   ]);
