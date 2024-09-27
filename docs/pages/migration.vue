@@ -47,7 +47,7 @@
 import Compare from '@components/compare';
 
 export default {
-  name: 'Migration',
+  name: 'MigrationComponent',
   components: {
     Compare,
   },

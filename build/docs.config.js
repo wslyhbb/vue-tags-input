@@ -127,13 +127,15 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
-    noInfo: true,
     port,
-    public: 'localhost:' + port,
     host: '0.0.0.0',
-    after() {
-      console.log('\nServing on: ', 'localhost:' + port);
-      console.log('IP: ', `${ip.address()}:${port}`);
+    setupMiddlewares(middlewares) {
+      middlewares.push(() => {
+        console.log('\nServing on: ', 'localhost:' + port);
+        console.log('IP: ', `${ip.address()}:${port}`);
+      })
+
+      return middlewares
     },
   },
   performance: {

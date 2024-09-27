@@ -15,7 +15,7 @@
 import ElCode from './el-code';
 
 export default {
-  name: 'Compare',
+  name: 'CompareComponent',
   components: {
     ElCode,
   },

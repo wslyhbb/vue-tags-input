@@ -10,7 +10,7 @@
       class="tags-input"
       @tags-changed="newTags => tags = newTags"
     >
-      <div slot="tag-center" slot-scope="props">
+      <template #tag-center="props">
         <span
           v-if="!props.edit"
           @click="props.performOpenEdit(props.index)"
@@ -26,7 +26,7 @@
           </select>
           <i class="material-icons" @click="props.performSaveEdit(props.index)">check</i>
         </div>
-      </div>
+      </template>
     </vue-tags-input>
     <el-code :code="tagCode" />
     <el-code lang="html" :code="require('./example2.demo.html')" />
@@ -41,7 +41,7 @@ import ElCode from '@components/el-code';
 import TagInput from '@tag-input';
 
 export default {
-  name: 'ExamplesTemplates',
+  name: 'Example2TemplateComponent',
   components: {
     VueTagsInput,
     ElCode,

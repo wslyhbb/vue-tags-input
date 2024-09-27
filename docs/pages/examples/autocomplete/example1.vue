@@ -25,6 +25,7 @@ import VueTagsInput from '@wslyhbb/vue3-tags-input';
 import ElCode from '@components/el-code';
 
 export default {
+  name: 'Example1AutocompleteComponent',
   components: {
     VueTagsInput,
     ElCode,

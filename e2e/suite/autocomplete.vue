@@ -33,7 +33,7 @@
 import VueTagsInput from '@wslyhbb/vue3-tags-input';
 
 export default {
-  name: 'Autocomplete',
+  name: 'AutocompleteComponent',
   components: {
     VueTagsInput,
   },

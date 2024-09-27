@@ -30,6 +30,7 @@ import ElCode from '@components/el-code';
 import VueTagsInput from '@wslyhbb/vue3-tags-input';
 
 export default {
+  name: 'Example4TemplateComponent',
   components: {
     VueTagsInput,
     ElCode,

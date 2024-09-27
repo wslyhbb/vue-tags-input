@@ -16,10 +16,6 @@
     <h3>Browser support</h3>
     <div class="browser-support">
       <div>
-        <ie class="icon" />
-        <span>IE 10 &lt;=</span>
-      </div>
-      <div>
         <safari class="icon" />
         <span>iPhone 9 &lt;=</span>
       </div>
@@ -58,7 +54,6 @@
 
 <script>
 import VueTagsInput from '@wslyhbb/vue3-tags-input';
-import Ie from '@components/icons/ie';
 import Safari from '@components/icons/safari';
 import Edge from '@components/icons/edge';
 import Chrome from '@components/icons/chrome';
@@ -69,7 +64,6 @@ export default {
   name: 'ProjectFeatures',
   components: {
     VueTagsInput,
-    Ie,
     Safari,
     Edge,
     Chrome,

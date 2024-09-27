@@ -25,7 +25,7 @@
 import VueTagsInput from '@wslyhbb/vue3-tags-input';
 
 export default {
-  name: 'Hooks',
+  name: 'HooksComponent',
   components: {
     VueTagsInput,
   },

@@ -15,5 +15,6 @@
 
 <script>
 export default {
+  name: 'GitHubComponent'
 };
 </script>

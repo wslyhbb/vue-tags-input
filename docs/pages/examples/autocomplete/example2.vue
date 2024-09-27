@@ -31,6 +31,7 @@ import ElCode from '@components/el-code';
 import axios from 'axios';
 
 export default {
+  name: 'Example2AutocompleteComponent',
   components: {
     VueTagsInput,
     ElCode,

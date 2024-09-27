@@ -17,6 +17,7 @@
 import ElCode from '@components/el-code';
 
 export default {
+  name: 'Example3TemplateComponent',
   components: {
     ElCode,
   },

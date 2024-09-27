@@ -22,7 +22,7 @@ import VueTagsInput from '@wslyhbb/vue3-tags-input';
 import ElCode from '@components/el-code';
 
 export default {
-  name: 'ExamplesHooks',
+  name: 'Example2Hooks',
   components: {
     VueTagsInput,
     ElCode,
