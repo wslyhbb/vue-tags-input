@@ -52,7 +52,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '~colors';
+@use 'colors';
 
 .slot-docs-item {
   margin: 35px 0;
@@ -70,7 +70,7 @@ export default {
 
 .label {
   margin-right: 6px;
-  color: $primary;
+  color: colors.$primary;
   font-weight: 500;
 
   &.big {

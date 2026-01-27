@@ -100,22 +100,22 @@ export default {
 </script>
 
 <style lang="scss">
-@import '~colors';
+@use 'colors';
 
 .basic-demo .ti-duplicate {
   color: blue !important;
 }
 
 .basic-demo .ti-tag.ti-invalid.only-numbers {
-  background-color: $warn;
+  background-color: colors.$warn;
 }
 
 .basic-demo .ti-new-tag-input.ti-invalid.min-length {
-  color: $error;
+  color: colors.$error;
 }
 
 .basic-demo .ti-new-tag-input.ti-invalid.only-numbers {
-  color: $warn;
+  color: colors.$warn;
 }
 
 .basic-demo .ti-autocomplete.ti-autocomplete {

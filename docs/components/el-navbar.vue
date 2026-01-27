@@ -150,18 +150,18 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '~colors';
+@use 'colors';
 
   nav {
     width: 300px;
-    background-color: $darker;
+    background-color: colors.$darker;
     flex-direction: column;
     flex-shrink: 0;
     display: flex;
     height: 100%;
     overflow-y: auto;
     box-shadow: 0 0 6px rgba(0,0,0,.3);
-    color: $lightGrey;
+    color: colors.$lightGrey;
   }
 
   @media (max-width: 940px) {
@@ -205,7 +205,7 @@ export default {
     }
 
     .sub {
-      color: $grey;
+      color: colors.$grey;
       letter-spacing: 1.3px;
       font-size: 12px;
     }
@@ -283,7 +283,7 @@ export default {
       }
 
       &.active > div > span:before {
-        background-color: $primary;
+        background-color: colors.$primary;
       }
 
       &.disabled {

@@ -38,7 +38,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import 'colors';
+@use 'colors';
 
 .code-block {
   overflow-x: auto;
@@ -48,8 +48,8 @@ export default {
   line-height: 1.5em;
   min-height: 54px;
   font-size: 0.925em;
-  background-color: $middle;
-  color: $lightGrey;
+  background-color: colors.$middle;
+  color: colors.$lightGrey;
   border-radius: 3px;
   font-family: 'Oxygen Mono', monospace !important;
 

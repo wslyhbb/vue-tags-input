@@ -78,7 +78,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import 'colors';
+@use 'colors';
 
 a {
   text-decoration: underline;
@@ -121,12 +121,12 @@ a {
     }
 
     span.experimental {
-      color: $grey;
+      color: colors.$grey;
     }
   }
 
   .description {
-    color: $grey;
+    color: colors.$grey;
     font-style: italic;
     font-size: 0.9em;
   }
@@ -144,6 +144,5 @@ a {
   .tag-actions {
     border-left: 1px solid #283944;
   }
-
 }
 </style>

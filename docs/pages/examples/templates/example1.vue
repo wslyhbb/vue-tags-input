@@ -99,7 +99,8 @@ export default {
 </script>
 
 <style lang="scss">
-@import 'colors';
+@use 'colors';
+
 #app .template-example-1 .tags-input {
   margin-top: 15px;
 
@@ -133,7 +134,7 @@ export default {
   }
 
   .ti-deletion-mark {
-    background-color: $error;
+    background-color: colors.$error;
   }
 }
 </style>

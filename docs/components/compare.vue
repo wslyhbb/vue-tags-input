@@ -34,7 +34,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import 'colors';
+@use 'colors';
 
 .compare {
   display: flex;
@@ -44,7 +44,7 @@ export default {
     font-size: 0.9em;
     margin-bottom: 4px;
     margin-top: 0px;
-    color: $grey;
+    color: colors.$grey;
   }
 
   article:nth-child(1) {

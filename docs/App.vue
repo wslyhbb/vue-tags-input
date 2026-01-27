@@ -65,7 +65,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import 'colors';
+@use 'colors';
 
 #app {
   width: 100%;
@@ -83,7 +83,7 @@ export default {
   height: 5px;
   width: 100%;
   z-index: 999;
-  background: $primary;
+  background: colors.$primary;
 }
 
 @media (max-width: 940px) {
@@ -145,7 +145,7 @@ header {
 @media (max-width: 600px) {
   header {
     position:fixed;
-    background-color: $darker;
+    background-color: colors.$darker;
     width: 100%;
     height: 50px;
     padding: 0 20px;
@@ -157,7 +157,7 @@ header {
   display: flex;
   align-items: center;
   font-size: 14px;
-  background: $middle;
+  background: colors.$middle;
   border-radius: 20px;
   padding-right: 14px;
   text-decoration: none;
@@ -173,14 +173,14 @@ header {
 
     > * {
       transition: fill 200ms ease;
-      fill: $lightestGrey;
+      fill: colors.$lightestGrey;
     }
   }
 
   span {
     text-align: right;
     min-width: 34px;
-    color: $lightestGrey;
+    color: colors.$lightestGrey;
     margin-right: 3px;
   }
 
@@ -217,11 +217,10 @@ header {
 .fade-enter, .fade-leave-to {
   opacity: 0;
 }
-
 </style>
 
 <style lang="scss">
-@import 'colors';
+@use 'colors';
 
 .gt-link {
 
@@ -231,7 +230,7 @@ header {
 
     > * {
       transition: fill 200ms ease;
-      fill: $lightestGrey;
+      fill: colors.$lightestGrey;
     }
   }
 

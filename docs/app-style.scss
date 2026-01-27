@@ -1,4 +1,4 @@
-@import "~colors";
+@use "colors";
 
 *, *:before, *:after {
   box-sizing: border-box;
@@ -13,12 +13,12 @@ html, body, #app-container {
 
 body {
   font-family: 'Roboto', sans-serif;
-  background: $dark;
+  background: colors.$dark;
   overflow-y: hidden;
   box-sizing: border-box;
   font-size: 16px;
   line-height: 24px;
-  color: $lightestGrey;
+  color: colors.$lightestGrey;
 }
 
 ul {
@@ -51,7 +51,7 @@ input:focus {
 }
 
 h1, h2, h3, h4 {
-  color: $lightGrey;
+  color: colors.$lightGrey;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
@@ -72,8 +72,8 @@ h2 {
 }
 
 .code {
-  background-color: $middle;
-  color: $lightestGrey;
+  background-color: colors.$middle;
+  color: colors.$lightestGrey;
   font-size: 0.9em;
   padding: 2px 3px;
   font-family: 'Oxygen Mono', monospace;

@@ -25,13 +25,13 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import 'colors';
+@use 'colors';
 
 .breaking-changes {
   padding: 12px;
   display: flex;
   align-items: center;
-  border: 1px solid $grey;
+  border: 1px solid colors.$grey;
   border-radius: 12px;
 
   > i {
@@ -44,14 +44,14 @@ export default {
 }
 
 .title {
-  color: $primary;
+  color: colors.$primary;
   font-weight: 500;
 }
 
 .further-info {
   margin-top: 5px;
   font-size: 0.85em;
-  color: $grey;
+  color: colors.$grey;
 }
 
 p {

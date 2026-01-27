@@ -113,7 +113,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import '~colors';
+@use 'colors';
 
 #app #project-features .tags-input {
   width: 100%;
@@ -121,17 +121,17 @@ export default {
 
   .ti-input {
     border: none;
-    border-bottom: 1px solid $lightGrey;
+    border-bottom: 1px solid colors.$lightGrey;
     padding: 4px 12px;
   }
 
   .ti-tag input {
-    color: $darker;
+    color: colors.$darker;
   }
 
   .ti-tag, .ti-item.ti-selected-item {
-    background-color: $primary;
-    color: $darker;
+    background-color: colors.$primary;
+    color: colors.$darker;
   }
 
   .ti-tags li {
@@ -148,7 +148,7 @@ export default {
   }
 
   .ti-tag.ti-deletion-mark  {
-    background-color: $error !important;
+    background-color: colors.$error !important;
     color: #fff;
   }
 }
@@ -165,7 +165,7 @@ export default {
 </style>
 
 <style lang="scss" scoped>
-@import 'colors';
+@use 'colors';
 
 .title {
   line-height: 28px;

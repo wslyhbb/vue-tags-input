@@ -1,11 +1,11 @@
-@import 'colors';
+@use 'colors';
 
 #app .vue-tags-input:not(.light) {
   background: transparent;
 
   input {
     background: transparent;
-    color: $lightestGrey;
+    color: colors.$lightestGrey;
   }
 
   .ti-tag input {
@@ -13,28 +13,28 @@
   }
 
   .ti-input {
-    border: 1px solid $grey;
+    border: 1px solid colors.$grey;
   }
 
   ::-webkit-input-placeholder {
-    color: $lightGrey;
+    color: colors.$lightGrey;
   }
 
   ::-moz-placeholder {
-    color: $lightGrey;
+    color: colors.$lightGrey;
   }
 
   :-ms-input-placeholder {
-    color: $lightGrey;
+    color: colors.$lightGrey;
   }
 
   :-moz-placeholder {
-    color: $lightGrey;
+    color: colors.$lightGrey;
   }
 
   .ti-autocomplete {
-    background: $dark;
-    border: 1px solid $grey;
+    background: colors.$dark;
+    border: 1px solid colors.$grey;
     border-top: none;
   }
 }
