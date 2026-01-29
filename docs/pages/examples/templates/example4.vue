@@ -20,14 +20,16 @@
         </small>
       </template>
     </vue-tags-input>
-    <el-code :code="require('./example4.demo.html')" lang="html" />
-    <el-code :code="require('./example4.demo.js')" />
+    <el-code :code="demoHtml" lang="html" />
+    <el-code :code="demoJs" />
   </section>
 </template>
 
 <script>
-import ElCode from '@components/el-code';
+import ElCode from '@components/el-code.vue';
 import VueTagsInput from '@wslyhbb/vue3-tags-input';
+import demoHtml from './example4.demo.html?raw';
+import demoJs from './example4.demo.js?raw';
 
 export default {
   name: 'Example4TemplateComponent',
@@ -54,6 +56,8 @@ export default {
       }, {
         text: 'husqvarna',
       }],
+      demoHtml,
+      demoJs,
     };
   },
 };

@@ -73,7 +73,7 @@
 </template>
 
 <script>
-import ElCode from './el-code';
+import ElCode from './el-code.vue';
 import kebabCase from 'lodash/kebabCase';
 
 export default {

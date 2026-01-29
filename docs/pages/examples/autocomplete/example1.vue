@@ -16,13 +16,14 @@
       :autocomplete-items="filteredItems"
       @tags-changed="newTags => tags = newTags"
     />
-    <el-code lang="html" :code="require('./example1.demo.html')" />
+    <el-code lang="html" :code="demoHtml" />
   </section>
 </template>
 
 <script>
 import VueTagsInput from '@wslyhbb/vue3-tags-input';
-import ElCode from '@components/el-code';
+import ElCode from '@components/el-code.vue';
+import demoHtml from './example1.demo.html?raw';
 
 export default {
   name: 'Example1AutocompleteComponent',
@@ -45,6 +46,7 @@ export default {
       }, {
         text: 'China',
       }],
+      demoHtml,
     };
   },
   computed: {

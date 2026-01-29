@@ -1,12 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import ToDevelop from './pages/to-develop';
-import ProjectFeatures from './pages/project-features';
-import GettingStarted from './pages/getting-started';
+import ToDevelop from './pages/to-develop.vue';
+import ProjectFeatures from './pages/project-features.vue';
+import GettingStarted from './pages/getting-started.vue';
 import api from './pages/api';
 import examples from './pages/examples';
 import e2eSuite from '../e2e/suite/';
-import Changelog from './pages/changelog';
-import Migration from './pages/migration';
+import Changelog from './pages/changelog.vue';
+import Migration from './pages/migration.vue';
 
 const routes = [{
   path: '/',

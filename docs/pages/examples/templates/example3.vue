@@ -9,17 +9,23 @@
       The css class <span class="code">ti-hidden</span> is provided by tags input.
       It's a helper class which enlarges a tag while the user is typing.
     </p>
-    <el-code :code="require('./example3.demo.html')" lang="html" />
+    <el-code :code="demoHtml" lang="html" />
   </section>
 </template>
 
 <script>
-import ElCode from '@components/el-code';
+import ElCode from '@components/el-code.vue';
+import demoHtml from './example3.demo.html?raw';
 
 export default {
   name: 'Example3TemplateComponent',
   components: {
     ElCode,
+  },
+  data() {
+    return {
+      demoHtml,
+    };
   },
 };
 

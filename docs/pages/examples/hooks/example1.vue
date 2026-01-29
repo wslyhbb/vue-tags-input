@@ -31,14 +31,16 @@
       <button @click="cancel">Cancel</button>
       <button @click="add">Add</button>
     </div>
-    <el-code lang="html" :code="require('./example1.demo.html')" />
-    <el-code :code="require('./example1.demo.js')" />
+    <el-code lang="html" :code="demoHtml" />
+    <el-code :code="demoJs" />
   </section>
 </template>
 
 <script>
 import VueTagsInput from '@wslyhbb/vue3-tags-input';
-import ElCode from '@components/el-code';
+import ElCode from '@components/el-code.vue';
+import demoHtml from './example1.demo.html?raw';
+import demoJs from './example1.demo.js?raw';
 
 export default {
   name: 'Example1Hooks',
@@ -51,6 +53,8 @@ export default {
       tag: '',
       tags: [],
       handlers: [],
+      demoHtml,
+      demoJs,
     };
   },
   methods: {

@@ -1,5 +1,5 @@
-import CreateTagsHelper from './create-tags-helper';
-import GenericApiPage from '@components/generic-api-page';
+import CreateTagsHelper from './create-tags-helper.vue';
+import GenericApiPage from '@components/generic-api-page.vue';
 
 const apiRoutes = ['events', 'props', 'slots'].map(type => {
   return {

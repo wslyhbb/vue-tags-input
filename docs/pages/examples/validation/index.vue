@@ -55,8 +55,8 @@
           In this case, the tag can't be added to the tags array.
           Like every tag which starts with "Cannot" in this example.
         </p>
-        <el-code lang="html" :code="require('./example1.demo.html')" />
-        <el-code :code="require('./example1.demo.js')" />
+        <el-code lang="html" :code="demoHtml" />
+        <el-code :code="demoJs" />
       </section>
       <section>
         <p>
@@ -85,8 +85,10 @@
 
 <script>
 import VueTagsInput from '@wslyhbb/vue3-tags-input';
-import ElCode from '@components/el-code';
-import BreakingChanges from '@components/breaking-changes';
+import ElCode from '@components/el-code.vue';
+import BreakingChanges from '@components/breaking-changes.vue';
+import demoHtml from './example1.demo.html?raw';
+import demoJs from './example1.demo.js?raw';
 
 export default {
   name: 'ExamplesValidation',
@@ -124,6 +126,8 @@ export default {
         classes: 'no-braces',
         rule: ({ text }) => text.indexOf('{') !== -1 || text.indexOf('}') !== -1,
       }],
+      demoHtml,
+      demoJs,
     };
   },
   computed: {

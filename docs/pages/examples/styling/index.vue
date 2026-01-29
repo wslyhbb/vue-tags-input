@@ -68,16 +68,18 @@
           @tags-changed="newTags => tags = newTags"
         />
       </section>
-      <el-code :code="require('./example1.demo')" />
-      <el-code lang="html" :code="require('./example1.demo.html')" />
+      <el-code :code="demoJs" />
+      <el-code lang="html" :code="demoHtml" />
     </div>
   </div>
 </template>
 
 <script>
 import VueTagsInput from '@wslyhbb/vue3-tags-input';
-import ElCode from '@components/el-code';
-import BreakingChanges from '@components/breaking-changes';
+import ElCode from '@components/el-code.vue';
+import BreakingChanges from '@components/breaking-changes.vue';
+import demoHtml from './example1.demo.html?raw';
+import demoJs from './example1.demo.js?raw';
 
 export default {
   name: 'ExamplesStyling',
@@ -118,6 +120,8 @@ export default {
         classes: 'no-numbers',
         rule: '^([^0-9]*)$',
       }],
+      demoHtml,
+      demoJs,
     };
   },
   computed: {

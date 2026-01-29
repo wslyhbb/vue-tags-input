@@ -44,7 +44,7 @@
 </template>
 
 <script>
-import Compare from '@components/compare';
+import Compare from '@components/compare.vue';
 
 export default {
   name: 'MigrationComponent',

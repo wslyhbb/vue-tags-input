@@ -32,9 +32,9 @@
 <script>
 import './app-style.scss';
 import './vue-tags-input-dark.scss';
-import ElNavbar from '@components/el-navbar';
+import ElNavbar from '@components/el-navbar.vue';
 import axois from 'axios';
-import GithubIcon from '@components/icons/github';
+import GithubIcon from '@components/icons/github.vue';
 
 export default {
   name: 'App',

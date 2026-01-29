@@ -54,11 +54,11 @@
 
 <script>
 import VueTagsInput from '@wslyhbb/vue3-tags-input';
-import Safari from '@components/icons/safari';
-import Edge from '@components/icons/edge';
-import Chrome from '@components/icons/chrome';
-import Opera from '@components/icons/opera';
-import Firefox from '@components/icons/firefox';
+import Safari from '@components/icons/safari.vue';
+import Edge from '@components/icons/edge.vue';
+import Chrome from '@components/icons/chrome.vue';
+import Opera from '@components/icons/opera.vue';
+import Firefox from '@components/icons/firefox.vue';
 
 export default {
   name: 'ProjectFeatures',

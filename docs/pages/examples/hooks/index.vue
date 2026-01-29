@@ -22,8 +22,8 @@
 </template>
 
 <script>
-import Example1 from './example1';
-import Example2 from './example2';
+import Example1 from './example1.vue';
+import Example2 from './example2.vue';
 
 export default {
   name: 'ExamplesHooks',

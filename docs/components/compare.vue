@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import ElCode from './el-code';
+import ElCode from './el-code.vue';
 
 export default {
   name: 'CompareComponent',

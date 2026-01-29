@@ -32,8 +32,8 @@
 </template>
 
 <script>
-import ElCode from '@components/el-code';
-import AutoDocsItem from '@components/auto-docs-item';
+import ElCode from '@components/el-code.vue';
+import AutoDocsItem from '@components/auto-docs-item.vue';
 import sortBy from 'lodash/sortBy';
 
 export default {

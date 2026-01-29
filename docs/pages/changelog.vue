@@ -21,6 +21,18 @@ export default {
     return {
       log: [
         {
+          version: '4.0.0',
+          changes: [
+            `Changed to provide an ES module.`,
+          ],
+        },
+        {
+          version: '3.0.0',
+          changes: [
+            `Migrated to Vue 3.`,
+          ],
+        },
+        {
           version: '2.0.0',
           changes: [
             'Changed the property key "type" to "classes" in a validation item',

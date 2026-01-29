@@ -21,7 +21,7 @@
         <code>npm install @wslyhbb/vue3-tags-input</code>
       </el-code>
       <h2>Usage</h2>
-      <el-code lang="html" :code="require('./getting-started.demo.html')" />
+      <el-code lang="html" :code="demoHtml" />
       <h2>CDN</h2>
       <p>
         vue-tags-input can be included via CDN and it registrates itself as a global component.
@@ -35,7 +35,8 @@
 
 <script>
 import VueTagsInput from '@wslyhbb/vue3-tags-input';
-import ElCode from '@components/el-code';
+import ElCode from '@components/el-code.vue';
+import demoHtml from './getting-started.demo.html?raw';
 
 export default {
   name: 'GettingStarted',
@@ -47,6 +48,7 @@ export default {
     return {
       tag: '',
       tags: [],
+      demoHtml,
       cdnUrl: 'https://unpkg.com/@wslyhbb/vue3-tags-input/dist/vue-tags-input.js',
     };
   },

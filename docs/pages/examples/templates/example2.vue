@@ -29,16 +29,19 @@
       </template>
     </vue-tags-input>
     <el-code :code="tagCode" />
-    <el-code lang="html" :code="require('./example2.demo.html')" />
-    <el-code :code="require('./example2.demo.js')" />
-    <el-code :code="require('./example2.demo.css')" />
+    <el-code lang="html" :code="demoHtml" />
+    <el-code :code="demoJs" />
+    <el-code :code="demoCss" />
   </section>
 </template>
 
 <script>
 import VueTagsInput from '@wslyhbb/vue3-tags-input';
-import ElCode from '@components/el-code';
+import ElCode from '@components/el-code.vue';
 import TagInput from '@tag-input';
+import demoHtml from './example2.demo.html?raw';
+import demoJs from './example2.demo.js?raw';
+import demoCss from './example2.demo.css?raw';
 
 export default {
   name: 'Example2TemplateComponent',
@@ -52,6 +55,9 @@ export default {
       animals: ['Lion', 'Turtle', 'Rabbit', 'Frog', 'Squirrel', 'Owl', 'Bee'],
       tag: '',
       tags: [],
+      demoHtml,
+      demoJs,
+      demoCss,
     };
   },
   computed: {

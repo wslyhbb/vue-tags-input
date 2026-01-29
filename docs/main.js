@@ -3,15 +3,10 @@ import { createApp } from 'vue';
 import App from './App.vue';
 import router from './router';
 import { format, mergeDocs } from './docs-formatter';
+import docsData from './docs-data.json';
 
-// require the docs file which contains all the information
-const docs = require('!!./docs-loader!../vue-tags-input/vue-tags-input.js');
-
-// we require the props file extra and merge it later,
-// then the webpack "browser reload on file change" works with this file, too
-const props = require('!!./docs-loader!../vue-tags-input/vue-tags-input.props.js');
-
-const merged = mergeDocs(props, docs);
+// Load pre-generated documentation
+const merged = mergeDocs(docsData.props, docsData.docs);
 window.docs = format(merged);
 
 const app = createApp(App);

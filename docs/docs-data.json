@@ -1,0 +1,6207 @@
+{
+  "docs": [
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Emits before a tag toggles to it's edit mode"
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Emits before a tag toggles to it's edit mode",
+          "lineNumber": 1
+        },
+        {
+          "title": "name",
+          "description": null,
+          "lineNumber": 2,
+          "name": "before-editing-tag"
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "events"
+          },
+          "name": "hook"
+        },
+        {
+          "title": "returns",
+          "description": "Contains the to editing tag: 'tag'.\r\nThe tag's index: 'index'. And a function: 'editTag'.\r\nIf the function is invoked, the tag toggles to it's edit mode.",
+          "lineNumber": 4,
+          "type": {
+            "type": "NameExpression",
+            "name": "Object"
+          }
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 112,
+          "column": 6,
+          "index": 3774
+        },
+        "end": {
+          "line": 119,
+          "column": 9,
+          "index": 4125
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 120,
+            "column": 6,
+            "index": 4133
+          },
+          "end": {
+            "line": 124,
+            "column": 9,
+            "index": 4275
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [
+        {
+          "title": "property",
+          "name": "hook",
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "events"
+          }
+        }
+      ],
+      "returns": [
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Contains the to editing tag: 'tag'.\r\nThe tag's index: 'index'. And a function: 'editTag'.\r\nIf the function is invoked, the tag toggles to it's edit mode."
+                  }
+                ]
+              }
+            ]
+          },
+          "title": "returns",
+          "type": {
+            "type": "NameExpression",
+            "name": "Object"
+          }
+        }
+      ],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "name": "before-editing-tag",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "before-editing-tag"
+        }
+      ],
+      "namespace": "before-editing-tag"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Emits before a tag is deleted"
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Emits before a tag is deleted",
+          "lineNumber": 1
+        },
+        {
+          "title": "name",
+          "description": null,
+          "lineNumber": 2,
+          "name": "before-deleting-tag"
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "events"
+          },
+          "name": "hook"
+        },
+        {
+          "title": "returns",
+          "description": "Contains the to editing tag: 'tag'. The tag's index: 'index'\r\nAnd a function: 'deleteTag'. If the function is invoked, the tag is deleted.",
+          "lineNumber": 4,
+          "type": {
+            "type": "NameExpression",
+            "name": "Object"
+          }
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 182,
+          "column": 6,
+          "index": 6675
+        },
+        "end": {
+          "line": 188,
+          "column": 9,
+          "index": 6988
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 189,
+            "column": 6,
+            "index": 6996
+          },
+          "end": {
+            "line": 193,
+            "column": 9,
+            "index": 7143
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [
+        {
+          "title": "property",
+          "name": "hook",
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "events"
+          }
+        }
+      ],
+      "returns": [
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Contains the to editing tag: 'tag'. The tag's index: 'index'\r\nAnd a function: 'deleteTag'. If the function is invoked, the tag is deleted."
+                  }
+                ]
+              }
+            ]
+          },
+          "title": "returns",
+          "type": {
+            "type": "NameExpression",
+            "name": "Object"
+          }
+        }
+      ],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "name": "before-deleting-tag",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "before-deleting-tag"
+        }
+      ],
+      "namespace": "before-deleting-tag"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Emits if the tags array changes"
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Emits if the tags array changes",
+          "lineNumber": 1
+        },
+        {
+          "title": "name",
+          "description": null,
+          "lineNumber": 2,
+          "name": "tags-changed"
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "events"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "returns",
+          "description": "The modified tags array",
+          "lineNumber": 4,
+          "type": {
+            "type": "NameExpression",
+            "name": "Array"
+          }
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 206,
+          "column": 6,
+          "index": 7522
+        },
+        "end": {
+          "line": 211,
+          "column": 9,
+          "index": 7700
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 212,
+            "column": 6,
+            "index": 7708
+          },
+          "end": {
+            "line": 212,
+            "column": 48,
+            "index": 7750
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "The modified tags array"
+                  }
+                ]
+              }
+            ]
+          },
+          "title": "returns",
+          "type": {
+            "type": "NameExpression",
+            "name": "Array"
+          }
+        }
+      ],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "name": "tags-changed",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "tags-changed"
+        }
+      ],
+      "namespace": "tags-changed"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Emits before a tag is added"
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Emits before a tag is added",
+          "lineNumber": 1
+        },
+        {
+          "title": "name",
+          "description": null,
+          "lineNumber": 2,
+          "name": "before-adding-tag"
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "events"
+          },
+          "name": "hook"
+        },
+        {
+          "title": "returns",
+          "description": "Contains the to editing tag: 'tag'. And a function: 'addTag'.\r\nIf the function is invoked, the tag is added.",
+          "lineNumber": 4,
+          "type": {
+            "type": "NameExpression",
+            "name": "Object"
+          }
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 238,
+          "column": 8,
+          "index": 8886
+        },
+        "end": {
+          "line": 244,
+          "column": 11,
+          "index": 9177
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 245,
+            "column": 8,
+            "index": 9187
+          },
+          "end": {
+            "line": 248,
+            "column": 11,
+            "index": 9300
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [
+        {
+          "title": "property",
+          "name": "hook",
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "events"
+          }
+        }
+      ],
+      "returns": [
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Contains the to editing tag: 'tag'. And a function: 'addTag'.\r\nIf the function is invoked, the tag is added."
+                  }
+                ]
+              }
+            ]
+          },
+          "title": "returns",
+          "type": {
+            "type": "NameExpression",
+            "name": "Object"
+          }
+        }
+      ],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "name": "before-adding-tag",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "before-adding-tag"
+        }
+      ],
+      "namespace": "before-adding-tag"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Emits if the maximum, the tags array is allowed to hold, is reached.\r\nThe maximum can be defined by the prop 'max-tags'."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Emits if the maximum, the tags array is allowed to hold, is reached.\r\nThe maximum can be defined by the prop 'max-tags'.",
+          "lineNumber": 1
+        },
+        {
+          "title": "name",
+          "description": null,
+          "lineNumber": 3,
+          "name": "max-tags-reached"
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 4,
+          "type": {
+            "type": "NameExpression",
+            "name": "events"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "returns",
+          "description": "The 'tag' which could not be added because of the length limitation.",
+          "lineNumber": 5,
+          "type": {
+            "type": "NameExpression",
+            "name": "Object"
+          }
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 268,
+          "column": 8,
+          "index": 10196
+        },
+        "end": {
+          "line": 274,
+          "column": 11,
+          "index": 10534
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 275,
+            "column": 8,
+            "index": 10544
+          },
+          "end": {
+            "line": 275,
+            "column": 71,
+            "index": 10607
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "The 'tag' which could not be added because of the length limitation."
+                  }
+                ]
+              }
+            ]
+          },
+          "title": "returns",
+          "type": {
+            "type": "NameExpression",
+            "name": "Object"
+          }
+        }
+      ],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "name": "max-tags-reached",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "max-tags-reached"
+        }
+      ],
+      "namespace": "max-tags-reached"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Emits if the user tries to add a duplicate to the tag's array\r\nand adding duplicates is prevented by the prop 'avoid-adding-duplicates'"
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Emits if the user tries to add a duplicate to the tag's array\r\nand adding duplicates is prevented by the prop 'avoid-adding-duplicates'",
+          "lineNumber": 1
+        },
+        {
+          "title": "name",
+          "description": null,
+          "lineNumber": 3,
+          "name": "adding-duplicate"
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 4,
+          "type": {
+            "type": "NameExpression",
+            "name": "events"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 279,
+          "column": 8,
+          "index": 10764
+        },
+        "end": {
+          "line": 284,
+          "column": 11,
+          "index": 11018
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 285,
+            "column": 8,
+            "index": 11028
+          },
+          "end": {
+            "line": 285,
+            "column": 60,
+            "index": 11080
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "name": "adding-duplicate",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "adding-duplicate"
+        }
+      ],
+      "namespace": "adding-duplicate"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Emits before a tag is saved"
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Emits before a tag is saved",
+          "lineNumber": 1
+        },
+        {
+          "title": "name",
+          "description": null,
+          "lineNumber": 2,
+          "name": "before-saving-tag"
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "events"
+          },
+          "name": "hook"
+        },
+        {
+          "title": "returns",
+          "description": "Contains the to editing tag: 'tag'.\r\nThe tag's index: 'index'. And a function: 'saveTag'.\r\nIf the function is invoked, the tag is saved.",
+          "lineNumber": 4,
+          "type": {
+            "type": "NameExpression",
+            "name": "Object"
+          }
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 315,
+          "column": 6,
+          "index": 12185
+        },
+        "end": {
+          "line": 322,
+          "column": 9,
+          "index": 12501
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 323,
+            "column": 6,
+            "index": 12509
+          },
+          "end": {
+            "line": 327,
+            "column": 9,
+            "index": 12633
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [
+        {
+          "title": "property",
+          "name": "hook",
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "events"
+          }
+        }
+      ],
+      "returns": [
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Contains the to editing tag: 'tag'.\r\nThe tag's index: 'index'. And a function: 'saveTag'.\r\nIf the function is invoked, the tag is saved."
+                  }
+                ]
+              }
+            ]
+          },
+          "title": "returns",
+          "type": {
+            "type": "NameExpression",
+            "name": "Object"
+          }
+        }
+      ],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "name": "before-saving-tag",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "before-saving-tag"
+        }
+      ],
+      "namespace": "before-saving-tag"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Emits if the user tries to save a duplicate in the tag's array\r\nand saving duplicates is prevented by the prop 'avoid-adding-duplicates'"
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Emits if the user tries to save a duplicate in the tag's array\r\nand saving duplicates is prevented by the prop 'avoid-adding-duplicates'",
+          "lineNumber": 1
+        },
+        {
+          "title": "name",
+          "description": null,
+          "lineNumber": 3,
+          "name": "saving-duplicate"
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 4,
+          "type": {
+            "type": "NameExpression",
+            "name": "events"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 338,
+          "column": 8,
+          "index": 13032
+        },
+        "end": {
+          "line": 343,
+          "column": 11,
+          "index": 13287
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 344,
+            "column": 8,
+            "index": 13297
+          },
+          "end": {
+            "line": 344,
+            "column": 60,
+            "index": 13349
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "name": "saving-duplicate",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "saving-duplicate"
+        }
+      ],
+      "namespace": "saving-duplicate"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Create one tag out of a String or validate an existing one"
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Create one tag out of a String or validate an existing one",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 2,
+          "type": {
+            "type": "NameExpression",
+            "name": "helpers"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "param",
+          "description": "A tag which should be validated | A String to create a tag",
+          "lineNumber": 3,
+          "type": {
+            "type": "UnionType",
+            "elements": [
+              {
+                "type": "NameExpression",
+                "name": "Object"
+              },
+              {
+                "type": "NameExpression",
+                "name": "String"
+              }
+            ]
+          },
+          "name": "tag"
+        },
+        {
+          "title": "param",
+          "description": "The tags array",
+          "lineNumber": 4,
+          "type": {
+            "type": "NameExpression",
+            "name": "Array"
+          },
+          "name": "tagsarray"
+        },
+        {
+          "title": "param",
+          "description": "The validation Array is optional (pass it if you use one)",
+          "lineNumber": 5,
+          "type": {
+            "type": "OptionalType",
+            "expression": {
+              "type": "NameExpression",
+              "name": "Array"
+            }
+          },
+          "name": "validation",
+          "default": "[]"
+        },
+        {
+          "title": "returns",
+          "description": "The created (validated) tag",
+          "lineNumber": 6,
+          "type": {
+            "type": "NameExpression",
+            "name": "Object"
+          }
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 53,
+          "column": 0,
+          "index": 1788
+        },
+        "end": {
+          "line": 60,
+          "column": 3,
+          "index": 2173
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 61,
+            "column": 0,
+            "index": 2175
+          },
+          "end": {
+            "line": 71,
+            "column": 2,
+            "index": 2529
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\create-tags.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [
+        {
+          "title": "param",
+          "name": "tag",
+          "lineNumber": 3,
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "A tag which should be validated | A String to create a tag"
+                  }
+                ]
+              }
+            ]
+          },
+          "type": {
+            "type": "UnionType",
+            "elements": [
+              {
+                "type": "NameExpression",
+                "name": "Object"
+              },
+              {
+                "type": "NameExpression",
+                "name": "String"
+              }
+            ]
+          }
+        },
+        {
+          "title": "param",
+          "name": "rest",
+          "lineNumber": 61,
+          "type": {
+            "type": "RestType"
+          }
+        },
+        {
+          "title": "param",
+          "name": "tagsarray",
+          "lineNumber": 4,
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "The tags array"
+                  }
+                ]
+              }
+            ]
+          },
+          "type": {
+            "type": "NameExpression",
+            "name": "Array"
+          }
+        },
+        {
+          "title": "param",
+          "name": "validation",
+          "lineNumber": 5,
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "The validation Array is optional (pass it if you use one)"
+                  }
+                ]
+              }
+            ]
+          },
+          "type": {
+            "type": "NameExpression",
+            "name": "Array"
+          },
+          "default": "[]"
+        }
+      ],
+      "properties": [],
+      "returns": [
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "The created (validated) tag"
+                  }
+                ]
+              }
+            ]
+          },
+          "title": "returns",
+          "type": {
+            "type": "NameExpression",
+            "name": "Object"
+          }
+        }
+      ],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "name": "createTag",
+      "kind": "constant",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "createTag",
+          "kind": "constant"
+        }
+      ],
+      "namespace": "createTag"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Create multiple tags out of Strings or validate existing tags"
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Create multiple tags out of Strings or validate existing tags",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 2,
+          "type": {
+            "type": "NameExpression",
+            "name": "helpers"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "param",
+          "description": "An Array containing tags or strings. See example below.",
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "Array"
+          },
+          "name": "tagsarray"
+        },
+        {
+          "title": "param",
+          "description": "The validation Array is optional (pass it if you use one)",
+          "lineNumber": 4,
+          "type": {
+            "type": "OptionalType",
+            "expression": {
+              "type": "NameExpression",
+              "name": "Array"
+            }
+          },
+          "name": "validation",
+          "default": "[]"
+        },
+        {
+          "title": "returns",
+          "description": "An array containing (validated) tags",
+          "lineNumber": 5,
+          "type": {
+            "type": "NameExpression",
+            "name": "Array"
+          }
+        },
+        {
+          "title": "example",
+          "description": "&#47;* Example to call the function *&#47;\r\nconst validatedTags = createTags(['tag1Text', 'tag2Text'], [{ type: 'length', rule: /[0-9]/ }])",
+          "lineNumber": 6
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 73,
+          "column": 0,
+          "index": 2533
+        },
+        "end": {
+          "line": 81,
+          "column": 3,
+          "index": 3037
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 82,
+            "column": 0,
+            "index": 3039
+          },
+          "end": {
+            "line": 82,
+            "column": 81,
+            "index": 3120
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\create-tags.js"
+      },
+      "augments": [],
+      "examples": [
+        {
+          "description": "&#47;* Example to call the function *&#47;\r\nconst validatedTags = createTags(['tag1Text', 'tag2Text'], [{ type: 'length', rule: /[0-9]/ }])"
+        }
+      ],
+      "implements": [],
+      "params": [
+        {
+          "title": "param",
+          "name": "tags",
+          "lineNumber": 82
+        },
+        {
+          "title": "param",
+          "name": "rest",
+          "lineNumber": 82,
+          "type": {
+            "type": "RestType"
+          }
+        },
+        {
+          "title": "param",
+          "name": "tagsarray",
+          "lineNumber": 3,
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "An Array containing tags or strings. See example below."
+                  }
+                ]
+              }
+            ]
+          },
+          "type": {
+            "type": "NameExpression",
+            "name": "Array"
+          }
+        },
+        {
+          "title": "param",
+          "name": "validation",
+          "lineNumber": 4,
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "The validation Array is optional (pass it if you use one)"
+                  }
+                ]
+              }
+            ]
+          },
+          "type": {
+            "type": "NameExpression",
+            "name": "Array"
+          },
+          "default": "[]"
+        }
+      ],
+      "properties": [],
+      "returns": [
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "An array containing (validated) tags"
+                  }
+                ]
+              }
+            ]
+          },
+          "title": "returns",
+          "type": {
+            "type": "NameExpression",
+            "name": "Array"
+          }
+        }
+      ],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "name": "createTags",
+      "kind": "constant",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "createTags",
+          "kind": "constant"
+        }
+      ],
+      "namespace": "createTags"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Property to bind a model to the input.\r\nIf the user changes the input value, the model updates, too.\r\nIf the user presses enter with an valid input,\r\na new tag is created with the value of this model.\r\nAfter creating the new tag, the model is cleared."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Property to bind a model to the input.\r\nIf the user changes the input value, the model updates, too.\r\nIf the user presses enter with an valid input,\r\na new tag is created with the value of this model.\r\nAfter creating the new tag, the model is cleared.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 6,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "required",
+          "description": null,
+          "lineNumber": 7
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 8,
+          "type": {
+            "type": "NameExpression",
+            "name": "String"
+          }
+        },
+        {
+          "title": "model",
+          "description": null,
+          "lineNumber": 9
+        },
+        {
+          "title": "default",
+          "description": "''",
+          "lineNumber": 10
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 40,
+          "column": 2,
+          "index": 1364
+        },
+        "end": {
+          "line": 51,
+          "column": 5,
+          "index": 1757
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 52,
+            "column": 2,
+            "index": 1761
+          },
+          "end": {
+            "line": 56,
+            "column": 3,
+            "index": 1837
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "String"
+      },
+      "name": "modelValue",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "modelValue",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".modelValue"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Pass an array containing objects like in the example below.\r\nThe properties 'style' and 'class' are optional. Of course it is possible to add custom\r\nproperties to a tag object. vue-tags-input won't change the key and value."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Pass an array containing objects like in the example below.\r\nThe properties 'style' and 'class' are optional. Of course it is possible to add custom\r\nproperties to a tag object. vue-tags-input won't change the key and value.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 4,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 5,
+          "type": {
+            "type": "NameExpression",
+            "name": "Array"
+          }
+        },
+        {
+          "title": "sync",
+          "description": null,
+          "lineNumber": 6
+        },
+        {
+          "title": "default",
+          "description": "[]",
+          "lineNumber": 7
+        },
+        {
+          "title": "example",
+          "description": "{\r\n&emsp;text: 'My tag value', &#47;* The visible text on display *&#47;\r\n&emsp;style: 'background-color: #ccc', &#47;* Adding inline styles is possible *&#47;\r\n&emsp;classes: 'custom-class another', &#47;* The value will be added as css classes *&#47;\r\n}",
+          "lineNumber": 8
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 57,
+          "column": 2,
+          "index": 1842
+        },
+        "end": {
+          "line": 71,
+          "column": 5,
+          "index": 2472
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 72,
+            "column": 2,
+            "index": 2476
+          },
+          "end": {
+            "line": 76,
+            "column": 3,
+            "index": 2564
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [
+        {
+          "description": "{\r\n&emsp;text: 'My tag value', &#47;* The visible text on display *&#47;\r\n&emsp;style: 'background-color: #ccc', &#47;* Adding inline styles is possible *&#47;\r\n&emsp;classes: 'custom-class another', &#47;* The value will be added as css classes *&#47;\r\n}"
+        }
+      ],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Array"
+      },
+      "name": "tags",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "tags",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".tags"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Expects an array containing objects inside. The objects\r\ncan have the same properties as a tag object."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Expects an array containing objects inside. The objects\r\ncan have the same properties as a tag object.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 4,
+          "type": {
+            "type": "NameExpression",
+            "name": "Array"
+          }
+        },
+        {
+          "title": "default",
+          "description": "[]",
+          "lineNumber": 5
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 77,
+          "column": 2,
+          "index": 2569
+        },
+        "end": {
+          "line": 83,
+          "column": 5,
+          "index": 2767
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 84,
+            "column": 2,
+            "index": 2771
+          },
+          "end": {
+            "line": 88,
+            "column": 3,
+            "index": 2872
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Array"
+      },
+      "name": "autocompleteItems",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "autocompleteItems",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".autocompleteItems"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Defines whether a tag is editable after creation or not."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Defines whether a tag is editable after creation or not.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 2,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "Boolean"
+          }
+        },
+        {
+          "title": "default",
+          "description": "false",
+          "lineNumber": 4
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 89,
+          "column": 2,
+          "index": 2877
+        },
+        "end": {
+          "line": 94,
+          "column": 5,
+          "index": 3030
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 95,
+            "column": 2,
+            "index": 3034
+          },
+          "end": {
+            "line": 98,
+            "column": 3,
+            "index": 3096
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Boolean"
+      },
+      "name": "allowEditTags",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "allowEditTags",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".allowEditTags"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Defines if duplicate autocomplete items are filtered out from the view or not."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Defines if duplicate autocomplete items are filtered out from the view or not.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 2,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "Boolean"
+          }
+        },
+        {
+          "title": "default",
+          "description": "true",
+          "lineNumber": 4
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 99,
+          "column": 2,
+          "index": 3101
+        },
+        "end": {
+          "line": 104,
+          "column": 5,
+          "index": 3275
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 105,
+            "column": 2,
+            "index": 3279
+          },
+          "end": {
+            "line": 108,
+            "column": 3,
+            "index": 3355
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Boolean"
+      },
+      "name": "autocompleteFilterDuplicates",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "autocompleteFilterDuplicates",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".autocompleteFilterDuplicates"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "If it's true, the user can add tags only via the autocomplete layer."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "If it's true, the user can add tags only via the autocomplete layer.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 2,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "Boolean"
+          }
+        },
+        {
+          "title": "default",
+          "description": "false",
+          "lineNumber": 4
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 109,
+          "column": 2,
+          "index": 3360
+        },
+        "end": {
+          "line": 114,
+          "column": 5,
+          "index": 3525
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 115,
+            "column": 2,
+            "index": 3529
+          },
+          "end": {
+            "line": 118,
+            "column": 3,
+            "index": 3601
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Boolean"
+      },
+      "name": "addOnlyFromAutocomplete",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "addOnlyFromAutocomplete",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".addOnlyFromAutocomplete"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "The minimum character length which is required\r\nuntil the autocomplete layer is shown. If set to 0,\r\nthen it'll be shown on focus."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "The minimum character length which is required\r\nuntil the autocomplete layer is shown. If set to 0,\r\nthen it'll be shown on focus.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 4,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 5,
+          "type": {
+            "type": "NameExpression",
+            "name": "Number"
+          }
+        },
+        {
+          "title": "default",
+          "description": "1",
+          "lineNumber": 6
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 119,
+          "column": 2,
+          "index": 3606
+        },
+        "end": {
+          "line": 126,
+          "column": 5,
+          "index": 3838
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 127,
+            "column": 2,
+            "index": 3842
+          },
+          "end": {
+            "line": 130,
+            "column": 3,
+            "index": 3907
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Number"
+      },
+      "name": "autocompleteMinLength",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "autocompleteMinLength",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".autocompleteMinLength"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "If it's true, the autocomplete layer is always shown, regardless if\r\nan input or an autocomplete items exists."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "If it's true, the autocomplete layer is always shown, regardless if\r\nan input or an autocomplete items exists.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 4,
+          "type": {
+            "type": "NameExpression",
+            "name": "Boolean"
+          }
+        },
+        {
+          "title": "default",
+          "description": "false",
+          "lineNumber": 5
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 131,
+          "column": 2,
+          "index": 3912
+        },
+        "end": {
+          "line": 137,
+          "column": 5,
+          "index": 4124
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 138,
+            "column": 2,
+            "index": 4128
+          },
+          "end": {
+            "line": 141,
+            "column": 3,
+            "index": 4199
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Boolean"
+      },
+      "name": "autocompleteAlwaysOpen",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "autocompleteAlwaysOpen",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".autocompleteAlwaysOpen"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Property to disable vue-tags-input."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Property to disable vue-tags-input.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 2,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "Boolean"
+          }
+        },
+        {
+          "title": "default",
+          "description": "false",
+          "lineNumber": 4
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 142,
+          "column": 2,
+          "index": 4204
+        },
+        "end": {
+          "line": 147,
+          "column": 5,
+          "index": 4336
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 148,
+            "column": 2,
+            "index": 4340
+          },
+          "end": {
+            "line": 151,
+            "column": 3,
+            "index": 4397
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Boolean"
+      },
+      "name": "disabled",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "disabled",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".disabled"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "The placeholder text which is shown in the input, when it's empty."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "The placeholder text which is shown in the input, when it's empty.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 2,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "String"
+          }
+        },
+        {
+          "title": "default",
+          "description": "Add Tag",
+          "lineNumber": 4
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 152,
+          "column": 2,
+          "index": 4402
+        },
+        "end": {
+          "line": 157,
+          "column": 5,
+          "index": 4566
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 158,
+            "column": 2,
+            "index": 4570
+          },
+          "end": {
+            "line": 161,
+            "column": 3,
+            "index": 4633
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "String"
+      },
+      "name": "placeholder",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "placeholder",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".placeholder"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Custom trigger key codes can be registrated. If the user presses one of these,\r\na tag will be generated out of the input value. Can be either a numeric keyCode or the key\r\nas a string."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Custom trigger key codes can be registrated. If the user presses one of these,\r\na tag will be generated out of the input value. Can be either a numeric keyCode or the key\r\nas a string.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 4,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 5,
+          "type": {
+            "type": "NameExpression",
+            "name": "Array"
+          }
+        },
+        {
+          "title": "default",
+          "description": "[13]",
+          "lineNumber": 6
+        },
+        {
+          "title": "example",
+          "description": "add-on-key=\"[13, ':', ';']\"",
+          "lineNumber": 7
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 162,
+          "column": 2,
+          "index": 4638
+        },
+        "end": {
+          "line": 170,
+          "column": 5,
+          "index": 4969
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 171,
+            "column": 2,
+            "index": 4973
+          },
+          "end": {
+            "line": 175,
+            "column": 3,
+            "index": 5077
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [
+        {
+          "description": "add-on-key=\"[13, ':', ';']\""
+        }
+      ],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Array"
+      },
+      "name": "addOnKey",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "addOnKey",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".addOnKey"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Custom trigger key codes can be registrated. If the user edits a tag\r\nand presses one of these, the edited tag will be saved.\r\nCan be either a numeric keyCode or the key as a string."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Custom trigger key codes can be registrated. If the user edits a tag\r\nand presses one of these, the edited tag will be saved.\r\nCan be either a numeric keyCode or the key as a string.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 4,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 5,
+          "type": {
+            "type": "NameExpression",
+            "name": "Array"
+          }
+        },
+        {
+          "title": "default",
+          "description": "[13]",
+          "lineNumber": 6
+        },
+        {
+          "title": "example",
+          "description": "save-on-key=\"[13, ':', ';']\"",
+          "lineNumber": 7
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 176,
+          "column": 2,
+          "index": 5082
+        },
+        "end": {
+          "line": 184,
+          "column": 5,
+          "index": 5412
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 185,
+            "column": 2,
+            "index": 5416
+          },
+          "end": {
+            "line": 189,
+            "column": 3,
+            "index": 5521
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [
+        {
+          "description": "save-on-key=\"[13, ':', ';']\""
+        }
+      ],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Array"
+      },
+      "name": "saveOnKey",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "saveOnKey",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".saveOnKey"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "The maximum amount the tags array is allowed to hold."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "The maximum amount the tags array is allowed to hold.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 2,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "Number"
+          }
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 190,
+          "column": 2,
+          "index": 5526
+        },
+        "end": {
+          "line": 194,
+          "column": 5,
+          "index": 5654
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 195,
+            "column": 2,
+            "index": 5658
+          },
+          "end": {
+            "line": 197,
+            "column": 3,
+            "index": 5692
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Number"
+      },
+      "name": "maxTags",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "maxTags",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".maxTags"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "The maximum amount of characters the input is allowed to hold."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "The maximum amount of characters the input is allowed to hold.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 2,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "Number"
+          }
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 198,
+          "column": 2,
+          "index": 5697
+        },
+        "end": {
+          "line": 202,
+          "column": 5,
+          "index": 5834
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 203,
+            "column": 2,
+            "index": 5838
+          },
+          "end": {
+            "line": 205,
+            "column": 3,
+            "index": 5874
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Number"
+      },
+      "name": "maxlength",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "maxlength",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".maxlength"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Pass an array containing objects like in the example below.\r\nThe property 'classes' will be added as css classes, if the property 'rule' matches the text\r\nof a tag, an autocomplete item or the input. The property 'rule' can be type of\r\nRegExp or function. If the property 'disableAdd' is 'true', the item can't be added\r\nto the tags array, if the appropriated rule matches."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Pass an array containing objects like in the example below.\r\nThe property 'classes' will be added as css classes, if the property 'rule' matches the text\r\nof a tag, an autocomplete item or the input. The property 'rule' can be type of\r\nRegExp or function. If the property 'disableAdd' is 'true', the item can't be added\r\nto the tags array, if the appropriated rule matches.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 6,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 7,
+          "type": {
+            "type": "NameExpression",
+            "name": "Array"
+          }
+        },
+        {
+          "title": "default",
+          "description": "[]",
+          "lineNumber": 8
+        },
+        {
+          "title": "example",
+          "description": "{\r\n&ensp;classes: 'class', &#47;* css class *&#47;\r\n&ensp;rule: /^([^0-9]*)$/, &#47;* RegExp *&#47;\r\n}, {\r\n&ensp;classes: 'no-braces', &#47;* css class *&#47;\r\n&ensp;rule(text) { &#47;* function with text as param *&#47;\r\n&ensp;&ensp;return text.indexOf('{') !== -1 || text.indexOf('}') !== -1;\r\n&ensp;},\r\n&ensp;disableAdd: true, &#47;* if the rule matches, the item cannot be added *&#47;,\r\n},",
+          "lineNumber": 9
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 206,
+          "column": 2,
+          "index": 5879
+        },
+        "end": {
+          "line": 226,
+          "column": 5,
+          "index": 6815
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 227,
+            "column": 2,
+            "index": 6819
+          },
+          "end": {
+            "line": 257,
+            "column": 3,
+            "index": 7813
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [
+        {
+          "description": "{\r\n&ensp;classes: 'class', &#47;* css class *&#47;\r\n&ensp;rule: /^([^0-9]*)$/, &#47;* RegExp *&#47;\r\n}, {\r\n&ensp;classes: 'no-braces', &#47;* css class *&#47;\r\n&ensp;rule(text) { &#47;* function with text as param *&#47;\r\n&ensp;&ensp;return text.indexOf('{') !== -1 || text.indexOf('}') !== -1;\r\n&ensp;},\r\n&ensp;disableAdd: true, &#47;* if the rule matches, the item cannot be added *&#47;,\r\n},"
+        }
+      ],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Array"
+      },
+      "name": "validation",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "validation",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".validation"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Defines the characters which splits a text into different pieces,\r\nto generate tags out of this pieces."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Defines the characters which splits a text into different pieces,\r\nto generate tags out of this pieces.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 4,
+          "type": {
+            "type": "NameExpression",
+            "name": "Array"
+          }
+        },
+        {
+          "title": "default",
+          "description": "[';']",
+          "lineNumber": 5
+        },
+        {
+          "title": "example",
+          "description": "separators: [';', ',']\r\ninput: some; user input, has random; commas, an,d semicolons\r\nwill split into: some - user input - has random - commas - an - d semicolons",
+          "lineNumber": 6
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 258,
+          "column": 2,
+          "index": 7818
+        },
+        "end": {
+          "line": 268,
+          "column": 5,
+          "index": 8215
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 269,
+            "column": 2,
+            "index": 8219
+          },
+          "end": {
+            "line": 279,
+            "column": 3,
+            "index": 8527
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [
+        {
+          "description": "separators: [';', ',']\r\ninput: some; user input, has random; commas, an,d semicolons\r\nwill split into: some - user input - has random - commas - an - d semicolons"
+        }
+      ],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Array"
+      },
+      "name": "separators",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "separators",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".separators"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "If it's true, the user can't add or save a tag,\r\nif another exists, with the same text value."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "If it's true, the user can't add or save a tag,\r\nif another exists, with the same text value.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 4,
+          "type": {
+            "type": "NameExpression",
+            "name": "Boolean"
+          }
+        },
+        {
+          "title": "default",
+          "description": "true",
+          "lineNumber": 5
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 280,
+          "column": 2,
+          "index": 8532
+        },
+        "end": {
+          "line": 286,
+          "column": 5,
+          "index": 8726
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 287,
+            "column": 2,
+            "index": 8730
+          },
+          "end": {
+            "line": 290,
+            "column": 3,
+            "index": 8799
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Boolean"
+      },
+      "name": "avoidAddingDuplicates",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "avoidAddingDuplicates",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".avoidAddingDuplicates"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "If the input holds a value and loses the focus,\r\na tag will be generated out of this value, if possible."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "If the input holds a value and loses the focus,\r\na tag will be generated out of this value, if possible.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 4,
+          "type": {
+            "type": "NameExpression",
+            "name": "Boolean"
+          }
+        },
+        {
+          "title": "default",
+          "description": "true",
+          "lineNumber": 5
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 291,
+          "column": 2,
+          "index": 8804
+        },
+        "end": {
+          "line": 297,
+          "column": 5,
+          "index": 9009
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 298,
+            "column": 2,
+            "index": 9013
+          },
+          "end": {
+            "line": 301,
+            "column": 3,
+            "index": 9070
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Boolean"
+      },
+      "name": "addOnBlur",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "addOnBlur",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".addOnBlur"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Custom function to detect duplicates. If the function returns 'true',\r\nthe tag will be marked as duplicate."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Custom function to detect duplicates. If the function returns 'true',\r\nthe tag will be marked as duplicate.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 4,
+          "type": {
+            "type": "NameExpression",
+            "name": "Function"
+          }
+        },
+        {
+          "title": "param",
+          "description": "The Array of tags minus the one which is edited/created.",
+          "lineNumber": 5,
+          "type": {
+            "type": "NameExpression",
+            "name": "Array"
+          },
+          "name": "tagsarray"
+        },
+        {
+          "title": "param",
+          "description": "The tag which is edited or should be added to the tags array.",
+          "lineNumber": 6,
+          "type": {
+            "type": "NameExpression",
+            "name": "Object"
+          },
+          "name": "tag"
+        },
+        {
+          "title": "example",
+          "description": "// The duplicate function to recreate the default behaviour, would look like this:\r\nisDuplicate(tags, tag) {\r\n&ensp;return tags.map(t => t.text).indexOf(tag.text) !== -1;\r\n}",
+          "lineNumber": 7
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 302,
+          "column": 2,
+          "index": 9075
+        },
+        "end": {
+          "line": 314,
+          "column": 5,
+          "index": 9648
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 315,
+            "column": 2,
+            "index": 9652
+          },
+          "end": {
+            "line": 318,
+            "column": 3,
+            "index": 9712
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [
+        {
+          "description": "// The duplicate function to recreate the default behaviour, would look like this:\r\nisDuplicate(tags, tag) {\r\n&ensp;return tags.map(t => t.text).indexOf(tag.text) !== -1;\r\n}"
+        }
+      ],
+      "implements": [],
+      "params": [
+        {
+          "title": "param",
+          "name": "tagsarray",
+          "lineNumber": 5,
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "The Array of tags minus the one which is edited/created."
+                  }
+                ]
+              }
+            ]
+          },
+          "type": {
+            "type": "NameExpression",
+            "name": "Array"
+          }
+        },
+        {
+          "title": "param",
+          "name": "tag",
+          "lineNumber": 6,
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "The tag which is edited or should be added to the tags array."
+                  }
+                ]
+              }
+            ]
+          },
+          "type": {
+            "type": "NameExpression",
+            "name": "Object"
+          }
+        }
+      ],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Function"
+      },
+      "name": "isDuplicate",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "isDuplicate",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".isDuplicate"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "If it's true, the user can paste into the input element and\r\nvue-tags-input will create tags out of the incoming text."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "If it's true, the user can paste into the input element and\r\nvue-tags-input will create tags out of the incoming text.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 4,
+          "type": {
+            "type": "NameExpression",
+            "name": "Boolean"
+          }
+        },
+        {
+          "title": "default",
+          "description": "true",
+          "lineNumber": 5
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 319,
+          "column": 2,
+          "index": 9717
+        },
+        "end": {
+          "line": 325,
+          "column": 5,
+          "index": 9936
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 326,
+            "column": 2,
+            "index": 9940
+          },
+          "end": {
+            "line": 329,
+            "column": 3,
+            "index": 10000
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Boolean"
+      },
+      "name": "addFromPaste",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "addFromPaste",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".addFromPaste"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Defines if it's possible to delete tags by pressing backspace.\r\nIf so and the user wants to delete a tag,\r\nthe tag gets the css class 'deletion-mark' for 1 second.\r\nIf the user presses backspace again in that time period,\r\nthe tag is removed from the tags array and the view."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Defines if it's possible to delete tags by pressing backspace.\r\nIf so and the user wants to delete a tag,\r\nthe tag gets the css class 'deletion-mark' for 1 second.\r\nIf the user presses backspace again in that time period,\r\nthe tag is removed from the tags array and the view.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 6,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 7,
+          "type": {
+            "type": "NameExpression",
+            "name": "Boolean"
+          }
+        },
+        {
+          "title": "default",
+          "description": "true",
+          "lineNumber": 8
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 330,
+          "column": 2,
+          "index": 10005
+        },
+        "end": {
+          "line": 339,
+          "column": 5,
+          "index": 10396
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 340,
+            "column": 2,
+            "index": 10400
+          },
+          "end": {
+            "line": 343,
+            "column": 3,
+            "index": 10465
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Boolean"
+      },
+      "name": "deleteOnBackspace",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "deleteOnBackspace",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".deleteOnBackspace"
+    }
+  ],
+  "props": [
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Property to bind a model to the input.\r\nIf the user changes the input value, the model updates, too.\r\nIf the user presses enter with an valid input,\r\na new tag is created with the value of this model.\r\nAfter creating the new tag, the model is cleared."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Property to bind a model to the input.\r\nIf the user changes the input value, the model updates, too.\r\nIf the user presses enter with an valid input,\r\na new tag is created with the value of this model.\r\nAfter creating the new tag, the model is cleared.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 6,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "required",
+          "description": null,
+          "lineNumber": 7
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 8,
+          "type": {
+            "type": "NameExpression",
+            "name": "String"
+          }
+        },
+        {
+          "title": "model",
+          "description": null,
+          "lineNumber": 9
+        },
+        {
+          "title": "default",
+          "description": "''",
+          "lineNumber": 10
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 40,
+          "column": 2,
+          "index": 1364
+        },
+        "end": {
+          "line": 51,
+          "column": 5,
+          "index": 1757
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 52,
+            "column": 2,
+            "index": 1761
+          },
+          "end": {
+            "line": 56,
+            "column": 3,
+            "index": 1837
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "String"
+      },
+      "name": "modelValue",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "modelValue",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".modelValue"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Pass an array containing objects like in the example below.\r\nThe properties 'style' and 'class' are optional. Of course it is possible to add custom\r\nproperties to a tag object. vue-tags-input won't change the key and value."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Pass an array containing objects like in the example below.\r\nThe properties 'style' and 'class' are optional. Of course it is possible to add custom\r\nproperties to a tag object. vue-tags-input won't change the key and value.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 4,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 5,
+          "type": {
+            "type": "NameExpression",
+            "name": "Array"
+          }
+        },
+        {
+          "title": "sync",
+          "description": null,
+          "lineNumber": 6
+        },
+        {
+          "title": "default",
+          "description": "[]",
+          "lineNumber": 7
+        },
+        {
+          "title": "example",
+          "description": "{\r\n&emsp;text: 'My tag value', &#47;* The visible text on display *&#47;\r\n&emsp;style: 'background-color: #ccc', &#47;* Adding inline styles is possible *&#47;\r\n&emsp;classes: 'custom-class another', &#47;* The value will be added as css classes *&#47;\r\n}",
+          "lineNumber": 8
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 57,
+          "column": 2,
+          "index": 1842
+        },
+        "end": {
+          "line": 71,
+          "column": 5,
+          "index": 2472
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 72,
+            "column": 2,
+            "index": 2476
+          },
+          "end": {
+            "line": 76,
+            "column": 3,
+            "index": 2564
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [
+        {
+          "description": "{\r\n&emsp;text: 'My tag value', &#47;* The visible text on display *&#47;\r\n&emsp;style: 'background-color: #ccc', &#47;* Adding inline styles is possible *&#47;\r\n&emsp;classes: 'custom-class another', &#47;* The value will be added as css classes *&#47;\r\n}"
+        }
+      ],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Array"
+      },
+      "name": "tags",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "tags",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".tags"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Expects an array containing objects inside. The objects\r\ncan have the same properties as a tag object."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Expects an array containing objects inside. The objects\r\ncan have the same properties as a tag object.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 4,
+          "type": {
+            "type": "NameExpression",
+            "name": "Array"
+          }
+        },
+        {
+          "title": "default",
+          "description": "[]",
+          "lineNumber": 5
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 77,
+          "column": 2,
+          "index": 2569
+        },
+        "end": {
+          "line": 83,
+          "column": 5,
+          "index": 2767
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 84,
+            "column": 2,
+            "index": 2771
+          },
+          "end": {
+            "line": 88,
+            "column": 3,
+            "index": 2872
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Array"
+      },
+      "name": "autocompleteItems",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "autocompleteItems",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".autocompleteItems"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Defines whether a tag is editable after creation or not."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Defines whether a tag is editable after creation or not.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 2,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "Boolean"
+          }
+        },
+        {
+          "title": "default",
+          "description": "false",
+          "lineNumber": 4
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 89,
+          "column": 2,
+          "index": 2877
+        },
+        "end": {
+          "line": 94,
+          "column": 5,
+          "index": 3030
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 95,
+            "column": 2,
+            "index": 3034
+          },
+          "end": {
+            "line": 98,
+            "column": 3,
+            "index": 3096
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Boolean"
+      },
+      "name": "allowEditTags",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "allowEditTags",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".allowEditTags"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Defines if duplicate autocomplete items are filtered out from the view or not."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Defines if duplicate autocomplete items are filtered out from the view or not.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 2,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "Boolean"
+          }
+        },
+        {
+          "title": "default",
+          "description": "true",
+          "lineNumber": 4
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 99,
+          "column": 2,
+          "index": 3101
+        },
+        "end": {
+          "line": 104,
+          "column": 5,
+          "index": 3275
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 105,
+            "column": 2,
+            "index": 3279
+          },
+          "end": {
+            "line": 108,
+            "column": 3,
+            "index": 3355
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Boolean"
+      },
+      "name": "autocompleteFilterDuplicates",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "autocompleteFilterDuplicates",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".autocompleteFilterDuplicates"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "If it's true, the user can add tags only via the autocomplete layer."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "If it's true, the user can add tags only via the autocomplete layer.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 2,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "Boolean"
+          }
+        },
+        {
+          "title": "default",
+          "description": "false",
+          "lineNumber": 4
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 109,
+          "column": 2,
+          "index": 3360
+        },
+        "end": {
+          "line": 114,
+          "column": 5,
+          "index": 3525
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 115,
+            "column": 2,
+            "index": 3529
+          },
+          "end": {
+            "line": 118,
+            "column": 3,
+            "index": 3601
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Boolean"
+      },
+      "name": "addOnlyFromAutocomplete",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "addOnlyFromAutocomplete",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".addOnlyFromAutocomplete"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "The minimum character length which is required\r\nuntil the autocomplete layer is shown. If set to 0,\r\nthen it'll be shown on focus."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "The minimum character length which is required\r\nuntil the autocomplete layer is shown. If set to 0,\r\nthen it'll be shown on focus.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 4,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 5,
+          "type": {
+            "type": "NameExpression",
+            "name": "Number"
+          }
+        },
+        {
+          "title": "default",
+          "description": "1",
+          "lineNumber": 6
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 119,
+          "column": 2,
+          "index": 3606
+        },
+        "end": {
+          "line": 126,
+          "column": 5,
+          "index": 3838
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 127,
+            "column": 2,
+            "index": 3842
+          },
+          "end": {
+            "line": 130,
+            "column": 3,
+            "index": 3907
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Number"
+      },
+      "name": "autocompleteMinLength",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "autocompleteMinLength",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".autocompleteMinLength"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "If it's true, the autocomplete layer is always shown, regardless if\r\nan input or an autocomplete items exists."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "If it's true, the autocomplete layer is always shown, regardless if\r\nan input or an autocomplete items exists.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 4,
+          "type": {
+            "type": "NameExpression",
+            "name": "Boolean"
+          }
+        },
+        {
+          "title": "default",
+          "description": "false",
+          "lineNumber": 5
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 131,
+          "column": 2,
+          "index": 3912
+        },
+        "end": {
+          "line": 137,
+          "column": 5,
+          "index": 4124
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 138,
+            "column": 2,
+            "index": 4128
+          },
+          "end": {
+            "line": 141,
+            "column": 3,
+            "index": 4199
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Boolean"
+      },
+      "name": "autocompleteAlwaysOpen",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "autocompleteAlwaysOpen",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".autocompleteAlwaysOpen"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Property to disable vue-tags-input."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Property to disable vue-tags-input.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 2,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "Boolean"
+          }
+        },
+        {
+          "title": "default",
+          "description": "false",
+          "lineNumber": 4
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 142,
+          "column": 2,
+          "index": 4204
+        },
+        "end": {
+          "line": 147,
+          "column": 5,
+          "index": 4336
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 148,
+            "column": 2,
+            "index": 4340
+          },
+          "end": {
+            "line": 151,
+            "column": 3,
+            "index": 4397
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Boolean"
+      },
+      "name": "disabled",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "disabled",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".disabled"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "The placeholder text which is shown in the input, when it's empty."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "The placeholder text which is shown in the input, when it's empty.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 2,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "String"
+          }
+        },
+        {
+          "title": "default",
+          "description": "Add Tag",
+          "lineNumber": 4
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 152,
+          "column": 2,
+          "index": 4402
+        },
+        "end": {
+          "line": 157,
+          "column": 5,
+          "index": 4566
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 158,
+            "column": 2,
+            "index": 4570
+          },
+          "end": {
+            "line": 161,
+            "column": 3,
+            "index": 4633
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "String"
+      },
+      "name": "placeholder",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "placeholder",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".placeholder"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Custom trigger key codes can be registrated. If the user presses one of these,\r\na tag will be generated out of the input value. Can be either a numeric keyCode or the key\r\nas a string."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Custom trigger key codes can be registrated. If the user presses one of these,\r\na tag will be generated out of the input value. Can be either a numeric keyCode or the key\r\nas a string.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 4,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 5,
+          "type": {
+            "type": "NameExpression",
+            "name": "Array"
+          }
+        },
+        {
+          "title": "default",
+          "description": "[13]",
+          "lineNumber": 6
+        },
+        {
+          "title": "example",
+          "description": "add-on-key=\"[13, ':', ';']\"",
+          "lineNumber": 7
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 162,
+          "column": 2,
+          "index": 4638
+        },
+        "end": {
+          "line": 170,
+          "column": 5,
+          "index": 4969
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 171,
+            "column": 2,
+            "index": 4973
+          },
+          "end": {
+            "line": 175,
+            "column": 3,
+            "index": 5077
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [
+        {
+          "description": "add-on-key=\"[13, ':', ';']\""
+        }
+      ],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Array"
+      },
+      "name": "addOnKey",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "addOnKey",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".addOnKey"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Custom trigger key codes can be registrated. If the user edits a tag\r\nand presses one of these, the edited tag will be saved.\r\nCan be either a numeric keyCode or the key as a string."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Custom trigger key codes can be registrated. If the user edits a tag\r\nand presses one of these, the edited tag will be saved.\r\nCan be either a numeric keyCode or the key as a string.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 4,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 5,
+          "type": {
+            "type": "NameExpression",
+            "name": "Array"
+          }
+        },
+        {
+          "title": "default",
+          "description": "[13]",
+          "lineNumber": 6
+        },
+        {
+          "title": "example",
+          "description": "save-on-key=\"[13, ':', ';']\"",
+          "lineNumber": 7
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 176,
+          "column": 2,
+          "index": 5082
+        },
+        "end": {
+          "line": 184,
+          "column": 5,
+          "index": 5412
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 185,
+            "column": 2,
+            "index": 5416
+          },
+          "end": {
+            "line": 189,
+            "column": 3,
+            "index": 5521
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [
+        {
+          "description": "save-on-key=\"[13, ':', ';']\""
+        }
+      ],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Array"
+      },
+      "name": "saveOnKey",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "saveOnKey",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".saveOnKey"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "The maximum amount the tags array is allowed to hold."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "The maximum amount the tags array is allowed to hold.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 2,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "Number"
+          }
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 190,
+          "column": 2,
+          "index": 5526
+        },
+        "end": {
+          "line": 194,
+          "column": 5,
+          "index": 5654
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 195,
+            "column": 2,
+            "index": 5658
+          },
+          "end": {
+            "line": 197,
+            "column": 3,
+            "index": 5692
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Number"
+      },
+      "name": "maxTags",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "maxTags",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".maxTags"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "The maximum amount of characters the input is allowed to hold."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "The maximum amount of characters the input is allowed to hold.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 2,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "Number"
+          }
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 198,
+          "column": 2,
+          "index": 5697
+        },
+        "end": {
+          "line": 202,
+          "column": 5,
+          "index": 5834
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 203,
+            "column": 2,
+            "index": 5838
+          },
+          "end": {
+            "line": 205,
+            "column": 3,
+            "index": 5874
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Number"
+      },
+      "name": "maxlength",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "maxlength",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".maxlength"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Pass an array containing objects like in the example below.\r\nThe property 'classes' will be added as css classes, if the property 'rule' matches the text\r\nof a tag, an autocomplete item or the input. The property 'rule' can be type of\r\nRegExp or function. If the property 'disableAdd' is 'true', the item can't be added\r\nto the tags array, if the appropriated rule matches."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Pass an array containing objects like in the example below.\r\nThe property 'classes' will be added as css classes, if the property 'rule' matches the text\r\nof a tag, an autocomplete item or the input. The property 'rule' can be type of\r\nRegExp or function. If the property 'disableAdd' is 'true', the item can't be added\r\nto the tags array, if the appropriated rule matches.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 6,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 7,
+          "type": {
+            "type": "NameExpression",
+            "name": "Array"
+          }
+        },
+        {
+          "title": "default",
+          "description": "[]",
+          "lineNumber": 8
+        },
+        {
+          "title": "example",
+          "description": "{\r\n&ensp;classes: 'class', &#47;* css class *&#47;\r\n&ensp;rule: /^([^0-9]*)$/, &#47;* RegExp *&#47;\r\n}, {\r\n&ensp;classes: 'no-braces', &#47;* css class *&#47;\r\n&ensp;rule(text) { &#47;* function with text as param *&#47;\r\n&ensp;&ensp;return text.indexOf('{') !== -1 || text.indexOf('}') !== -1;\r\n&ensp;},\r\n&ensp;disableAdd: true, &#47;* if the rule matches, the item cannot be added *&#47;,\r\n},",
+          "lineNumber": 9
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 206,
+          "column": 2,
+          "index": 5879
+        },
+        "end": {
+          "line": 226,
+          "column": 5,
+          "index": 6815
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 227,
+            "column": 2,
+            "index": 6819
+          },
+          "end": {
+            "line": 257,
+            "column": 3,
+            "index": 7813
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [
+        {
+          "description": "{\r\n&ensp;classes: 'class', &#47;* css class *&#47;\r\n&ensp;rule: /^([^0-9]*)$/, &#47;* RegExp *&#47;\r\n}, {\r\n&ensp;classes: 'no-braces', &#47;* css class *&#47;\r\n&ensp;rule(text) { &#47;* function with text as param *&#47;\r\n&ensp;&ensp;return text.indexOf('{') !== -1 || text.indexOf('}') !== -1;\r\n&ensp;},\r\n&ensp;disableAdd: true, &#47;* if the rule matches, the item cannot be added *&#47;,\r\n},"
+        }
+      ],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Array"
+      },
+      "name": "validation",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "validation",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".validation"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Defines the characters which splits a text into different pieces,\r\nto generate tags out of this pieces."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Defines the characters which splits a text into different pieces,\r\nto generate tags out of this pieces.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 4,
+          "type": {
+            "type": "NameExpression",
+            "name": "Array"
+          }
+        },
+        {
+          "title": "default",
+          "description": "[';']",
+          "lineNumber": 5
+        },
+        {
+          "title": "example",
+          "description": "separators: [';', ',']\r\ninput: some; user input, has random; commas, an,d semicolons\r\nwill split into: some - user input - has random - commas - an - d semicolons",
+          "lineNumber": 6
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 258,
+          "column": 2,
+          "index": 7818
+        },
+        "end": {
+          "line": 268,
+          "column": 5,
+          "index": 8215
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 269,
+            "column": 2,
+            "index": 8219
+          },
+          "end": {
+            "line": 279,
+            "column": 3,
+            "index": 8527
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [
+        {
+          "description": "separators: [';', ',']\r\ninput: some; user input, has random; commas, an,d semicolons\r\nwill split into: some - user input - has random - commas - an - d semicolons"
+        }
+      ],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Array"
+      },
+      "name": "separators",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "separators",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".separators"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "If it's true, the user can't add or save a tag,\r\nif another exists, with the same text value."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "If it's true, the user can't add or save a tag,\r\nif another exists, with the same text value.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 4,
+          "type": {
+            "type": "NameExpression",
+            "name": "Boolean"
+          }
+        },
+        {
+          "title": "default",
+          "description": "true",
+          "lineNumber": 5
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 280,
+          "column": 2,
+          "index": 8532
+        },
+        "end": {
+          "line": 286,
+          "column": 5,
+          "index": 8726
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 287,
+            "column": 2,
+            "index": 8730
+          },
+          "end": {
+            "line": 290,
+            "column": 3,
+            "index": 8799
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Boolean"
+      },
+      "name": "avoidAddingDuplicates",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "avoidAddingDuplicates",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".avoidAddingDuplicates"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "If the input holds a value and loses the focus,\r\na tag will be generated out of this value, if possible."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "If the input holds a value and loses the focus,\r\na tag will be generated out of this value, if possible.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 4,
+          "type": {
+            "type": "NameExpression",
+            "name": "Boolean"
+          }
+        },
+        {
+          "title": "default",
+          "description": "true",
+          "lineNumber": 5
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 291,
+          "column": 2,
+          "index": 8804
+        },
+        "end": {
+          "line": 297,
+          "column": 5,
+          "index": 9009
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 298,
+            "column": 2,
+            "index": 9013
+          },
+          "end": {
+            "line": 301,
+            "column": 3,
+            "index": 9070
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Boolean"
+      },
+      "name": "addOnBlur",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "addOnBlur",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".addOnBlur"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Custom function to detect duplicates. If the function returns 'true',\r\nthe tag will be marked as duplicate."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Custom function to detect duplicates. If the function returns 'true',\r\nthe tag will be marked as duplicate.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 4,
+          "type": {
+            "type": "NameExpression",
+            "name": "Function"
+          }
+        },
+        {
+          "title": "param",
+          "description": "The Array of tags minus the one which is edited/created.",
+          "lineNumber": 5,
+          "type": {
+            "type": "NameExpression",
+            "name": "Array"
+          },
+          "name": "tagsarray"
+        },
+        {
+          "title": "param",
+          "description": "The tag which is edited or should be added to the tags array.",
+          "lineNumber": 6,
+          "type": {
+            "type": "NameExpression",
+            "name": "Object"
+          },
+          "name": "tag"
+        },
+        {
+          "title": "example",
+          "description": "// The duplicate function to recreate the default behaviour, would look like this:\r\nisDuplicate(tags, tag) {\r\n&ensp;return tags.map(t => t.text).indexOf(tag.text) !== -1;\r\n}",
+          "lineNumber": 7
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 302,
+          "column": 2,
+          "index": 9075
+        },
+        "end": {
+          "line": 314,
+          "column": 5,
+          "index": 9648
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 315,
+            "column": 2,
+            "index": 9652
+          },
+          "end": {
+            "line": 318,
+            "column": 3,
+            "index": 9712
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [
+        {
+          "description": "// The duplicate function to recreate the default behaviour, would look like this:\r\nisDuplicate(tags, tag) {\r\n&ensp;return tags.map(t => t.text).indexOf(tag.text) !== -1;\r\n}"
+        }
+      ],
+      "implements": [],
+      "params": [
+        {
+          "title": "param",
+          "name": "tagsarray",
+          "lineNumber": 5,
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "The Array of tags minus the one which is edited/created."
+                  }
+                ]
+              }
+            ]
+          },
+          "type": {
+            "type": "NameExpression",
+            "name": "Array"
+          }
+        },
+        {
+          "title": "param",
+          "name": "tag",
+          "lineNumber": 6,
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "The tag which is edited or should be added to the tags array."
+                  }
+                ]
+              }
+            ]
+          },
+          "type": {
+            "type": "NameExpression",
+            "name": "Object"
+          }
+        }
+      ],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Function"
+      },
+      "name": "isDuplicate",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "isDuplicate",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".isDuplicate"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "If it's true, the user can paste into the input element and\r\nvue-tags-input will create tags out of the incoming text."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "If it's true, the user can paste into the input element and\r\nvue-tags-input will create tags out of the incoming text.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 3,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 4,
+          "type": {
+            "type": "NameExpression",
+            "name": "Boolean"
+          }
+        },
+        {
+          "title": "default",
+          "description": "true",
+          "lineNumber": 5
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 319,
+          "column": 2,
+          "index": 9717
+        },
+        "end": {
+          "line": 325,
+          "column": 5,
+          "index": 9936
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 326,
+            "column": 2,
+            "index": 9940
+          },
+          "end": {
+            "line": 329,
+            "column": 3,
+            "index": 10000
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Boolean"
+      },
+      "name": "addFromPaste",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "addFromPaste",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".addFromPaste"
+    },
+    {
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Defines if it's possible to delete tags by pressing backspace.\r\nIf so and the user wants to delete a tag,\r\nthe tag gets the css class 'deletion-mark' for 1 second.\r\nIf the user presses backspace again in that time period,\r\nthe tag is removed from the tags array and the view."
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        {
+          "title": "description",
+          "description": "Defines if it's possible to delete tags by pressing backspace.\r\nIf so and the user wants to delete a tag,\r\nthe tag gets the css class 'deletion-mark' for 1 second.\r\nIf the user presses backspace again in that time period,\r\nthe tag is removed from the tags array and the view.",
+          "lineNumber": 1
+        },
+        {
+          "title": "property",
+          "description": null,
+          "lineNumber": 6,
+          "type": {
+            "type": "NameExpression",
+            "name": "props"
+          },
+          "name": null,
+          "errors": [
+            "Missing or invalid tag name"
+          ]
+        },
+        {
+          "title": "type",
+          "description": null,
+          "lineNumber": 7,
+          "type": {
+            "type": "NameExpression",
+            "name": "Boolean"
+          }
+        },
+        {
+          "title": "default",
+          "description": "true",
+          "lineNumber": 8
+        }
+      ],
+      "loc": {
+        "start": {
+          "line": 330,
+          "column": 2,
+          "index": 10005
+        },
+        "end": {
+          "line": 339,
+          "column": 5,
+          "index": 10396
+        }
+      },
+      "context": {
+        "loc": {
+          "start": {
+            "line": 340,
+            "column": 2,
+            "index": 10400
+          },
+          "end": {
+            "line": 343,
+            "column": 3,
+            "index": 10465
+          }
+        },
+        "file": "C:\\Users\\Wesley Hobbie\\source\\repos\\vue-tags-input\\vue-tags-input\\vue-tags-input.props.js"
+      },
+      "augments": [],
+      "examples": [],
+      "implements": [],
+      "params": [],
+      "properties": [],
+      "returns": [],
+      "sees": [],
+      "throws": [],
+      "todos": [],
+      "yields": [],
+      "type": {
+        "type": "NameExpression",
+        "name": "Boolean"
+      },
+      "name": "deleteOnBackspace",
+      "memberof": "vue-tags-input.props",
+      "scope": "static",
+      "members": {
+        "global": [],
+        "inner": [],
+        "instance": [],
+        "events": [],
+        "static": []
+      },
+      "path": [
+        {
+          "name": "deleteOnBackspace",
+          "scope": "static"
+        }
+      ],
+      "namespace": ".deleteOnBackspace"
+    }
+  ]
+}

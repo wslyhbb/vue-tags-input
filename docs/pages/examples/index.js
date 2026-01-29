@@ -1,9 +1,9 @@
-import Styling from './styling/';
-import Autocomplete from './autocomplete/';
-import Validation from './validation/';
-import Hooks from './hooks/';
-import Templates from './templates/';
-import Nuxt from './nuxt';
+import Styling from './styling/index.vue';
+import Autocomplete from './autocomplete/index.vue';
+import Validation from './validation/index.vue';
+import Hooks from './hooks/index.vue';
+import Templates from './templates/index.vue';
+import Nuxt from './nuxt.vue';
 
 export default [{
   path: '/examples/styling',

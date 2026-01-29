@@ -1,22 +1,22 @@
-import Validation from './validation';
-import Autocomplete from './autocomplete';
-import Hooks from './hooks';
-import EditTag from './edit-tag';
-import AddSaveOnKey from './add-save-on-key';
+import Validation from './validation.vue';
+import Autocomplete from './autocomplete.vue';
+import Hooks from './hooks.vue';
+import EditTag from './edit-tag.vue';
+import AddSaveOnKey from './add-save-on-key.vue';
 
 export default [{
-  path: '/e2e-suite/validation',
+  path: '/e2e-suite/validation.vue',
   component: Validation,
 }, {
-  path: '/e2e-suite/autocomplete',
+  path: '/e2e-suite/autocomplete.vue',
   component: Autocomplete,
 }, {
-  path: '/e2e-suite/hooks',
+  path: '/e2e-suite/hooks.vue',
   component: Hooks,
 }, {
-  path: '/e2e-suite/edit-tag',
+  path: '/e2e-suite/edit-tag.vue',
   component: EditTag,
 }, {
-  path: '/e2e-suite/add-save-on-key',
+  path: '/e2e-suite/add-save-on-key.vue',
   component: AddSaveOnKey,
 }];

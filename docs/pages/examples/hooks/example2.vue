@@ -12,14 +12,16 @@
       @tags-changed="newTags => tags = newTags"
       @before-adding-tag="checkTag"
     />
-    <el-code lang="html" :code="require('./example2.demo.html')" />
-    <el-code :code="require('./example2.demo.js')" />
+    <el-code lang="html" :code="demoHtml" />
+    <el-code :code="demoJs" />
   </section>
 </template>
 
 <script>
 import VueTagsInput from '@wslyhbb/vue3-tags-input';
-import ElCode from '@components/el-code';
+import ElCode from '@components/el-code.vue';
+import demoHtml from './example2.demo.html?raw';
+import demoJs from './example2.demo.js?raw';
 
 export default {
   name: 'Example2Hooks',
@@ -32,6 +34,8 @@ export default {
       tag: '',
       tags: [],
       handler: null,
+      demoHtml,
+      demoJs,
     };
   },
   methods: {

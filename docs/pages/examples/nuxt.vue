@@ -41,7 +41,7 @@
 </template>
 
 <script>
-import ElCode from '@components/el-code';
+import ElCode from '@components/el-code.vue';
 
 export default {
   name: 'ExamplesNuxt',

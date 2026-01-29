@@ -13,9 +13,9 @@
 </template>
 
 <script>
-import AutoDocsItem from '@components/auto-docs-item';
+import AutoDocsItem from '@components/auto-docs-item.vue';
 import sortBy from 'lodash/sortBy';
-import SlotDocsItem from '@components/slot-docs-item';
+import SlotDocsItem from '@components/slot-docs-item.vue';
 
 export default {
   name: 'GenericApiPage',

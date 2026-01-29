@@ -53,14 +53,14 @@
 </template>
 
 <script>
-import BreakingChanges from '@components/breaking-changes';
+import BreakingChanges from '@components/breaking-changes.vue';
 import VueTagsInput from '@wslyhbb/vue3-tags-input';
-import ElCode from '@components/el-code';
+import ElCode from '@components/el-code.vue';
 import TagInput from '@tag-input';
-import Example1 from './example1';
-import Example2 from './example2';
-import Example3 from './example3';
-import Example4 from './example4';
+import Example1 from './example1.vue';
+import Example2 from './example2.vue';
+import Example3 from './example3.vue';
+import Example4 from './example4.vue';
 
 export default {
   name: 'ExamplesTemplates',

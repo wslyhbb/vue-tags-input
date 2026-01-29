@@ -21,14 +21,15 @@
       />
       <div v-if="loading" class="spinner">Loading</div>
     </div>
-    <el-code lang="html" :code="require('./example2.demo.html')" />
+    <el-code lang="html" :code="demoHtml" />
   </section>
 </template>
 
 <script>
 import VueTagsInput from '@wslyhbb/vue3-tags-input';
-import ElCode from '@components/el-code';
+import ElCode from '@components/el-code.vue';
 import axios from 'axios';
+import demoHtml from './example2.demo.html?raw';
 
 export default {
   name: 'Example2AutocompleteComponent',
@@ -43,6 +44,7 @@ export default {
       autocompleteItems: [],
       debounce: null,
       loading: false,
+      demoHtml,
     };
   },
   watch: {
